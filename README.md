@@ -72,7 +72,7 @@ sneakers-collection/
 - [x] Stage 3.5 · 浅色主题翻新
 - [x] Stage 3.6 · 经典款 hero 对齐 + 配色补全到 146 条
 - [x] Stage 3.7 · 详情页区块化（事实矩阵 + 关键词胶囊 + 段落锚点 + 配色筛选）
-- [ ] Stage 4 · GitHub Pages 上线
+- [x] Stage 4 · GitHub Pages 上线 → **https://nic-wang.github.io/sneakers-collection/**
 
 ## 当前数据量
 
