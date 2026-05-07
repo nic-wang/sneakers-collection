@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+.idea/
+.vscode/
+
+# logs
+*.log
+/tmp/
+
+# python cache
+__pycache__/
+*.pyc
+
+# server pid
+*.pid

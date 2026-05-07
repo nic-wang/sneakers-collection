@@ -1,0 +1,4615 @@
+{
+  "_meta": {
+    "version": "0.2.0",
+    "updated": "2026-05-07",
+    "notes": "Sneakers Collection data · 图片采用参数化 SVG 占位（upper/sole/accent 三色），真实产品图后续放入 assets/img/ 并在字段中写 img 路径覆盖占位。",
+    "image_policy": "image 字段优先级：img > palette(SVG 占位)"
+  },
+  "jordan": {
+    "cover_palette": {
+      "upper": "#c8102e",
+      "sole": "#ffffff",
+      "accent": "#000000",
+      "laces": "#ffffff",
+      "modelLabel": "Air Jordan",
+      "colorwayName": "Chicago"
+    },
+    "models": [
+      {
+        "id": "aj1",
+        "name": "Air Jordan 1",
+        "subtitle": "禁穿传奇的起点 · 改变篮球鞋历史的那双",
+        "year": 1985,
+        "designer": "Peter Moore",
+        "style_code": "BQ4422 / 555088",
+        "original_price": 65,
+        "market_price": {
+          "low": 120,
+          "high": 2500
+        },
+        "icon_moment": "被 NBA 禁穿 · 每场罚款 5000 美元",
+        "hero_palette": {
+          "upper": "#c8102e",
+          "sole": "#ffffff",
+          "accent": "#000000",
+          "laces": "#ffffff",
+          "modelLabel": "Air Jordan 1",
+          "colorwayName": "Chicago OG"
+        },
+        "story": [
+          "1984 年 Nike 市场总监 Sonny Vaccaro 说服创始人 Phil Knight 以每年 50 万美元签下 21 岁的迈克尔·乔丹——这是当时联盟闻所未闻的签约金。作为交换，Peter Moore 为这位新秀设计了他的第一双签名鞋。",
+          "AJ 1 的红黑配色因违反 NBA 的「鞋面颜色需与队服 / 球鞋主色 51% 一致」规则被禁穿，每场罚款 5000 美元由 Nike 买单。这场「罚款营销」让 AJ 1 成为美国年轻人最渴望的文化符号。",
+          "1985 年 9 月正式发售，售价 65 美元。初代仅 13 种配色，其中 Bred、Chicago、Royal 被称为「神圣三原色」。1994 年首次复刻，2013 年开始 OG 复刻周期，至今仍是 Jordan Brand 年销售最高的型号。"
+        ],
+        "colorways": [
+          {
+            "name": "Bred (Banned)",
+            "type": "OG",
+            "year": 1985,
+            "release_date": "1985-04",
+            "retail": 65,
+            "market_price": {
+              "low": 180,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "禁穿传奇主角。2011、2013、2016、2025 均有复刻，2025 Reimagined 版还原 NBA 禁令信鞋盒。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-1-bred-history/"
+              }
+            ],
+            "img": "assets/img/aj1-bred.jpg"
+          },
+          {
+            "name": "Chicago",
+            "type": "OG",
+            "year": 1985,
+            "release_date": "1985-04",
+            "retail": 65,
+            "market_price": {
+              "low": 350,
+              "high": 2500
+            },
+            "palette": {
+              "upper": "#c8102e",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "公牛队主色。1994、2015、2022 Lost & Found 复刻，2022 版故意做旧，被视为 Chicago 终极形态。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-1-chicago-lost-and-found/"
+              }
+            ],
+            "img": "assets/img/aj1-chicago.jpg"
+          },
+          {
+            "name": "Royal",
+            "type": "OG",
+            "year": 1985,
+            "release_date": "1985-04",
+            "retail": 65,
+            "market_price": {
+              "low": 200,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#1d3a8a",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "蓝黑配色，Jordan 本人最喜欢的日常配色之一。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-1-royal-blue/"
+              }
+            ],
+            "img": "assets/img/aj1-royal.png"
+          },
+          {
+            "name": "Shadow",
+            "type": "OG",
+            "year": 1985,
+            "release_date": "1985",
+            "retail": 65,
+            "market_price": {
+              "low": 180,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#555555",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "黑灰冷色调，AJ 1 最「日常百搭」的 OG。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-1-shadow-2-0/"
+              }
+            ],
+            "img": "assets/img/aj1-shadow.jpg"
+          },
+          {
+            "name": "Black Toe",
+            "type": "OG",
+            "year": 1985,
+            "release_date": "1985",
+            "retail": 65,
+            "market_price": {
+              "low": 220,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#c8102e"
+            },
+            "story": "白底黑头红后跟，与 Chicago 同年发售。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch/t/air-jordan-1-retro-high-og-black-toe-reimagined"
+              }
+            ],
+            "img": "assets/img/aj1-black-toe.jpg"
+          },
+          {
+            "name": "UNC (Powder Blue)",
+            "type": "OG",
+            "year": 1985,
+            "release_date": "1985",
+            "retail": 65,
+            "market_price": {
+              "low": 180,
+              "high": 350
+            },
+            "palette": {
+              "upper": "#a8d0e6",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "北卡大学配色 · 致敬乔丹母校。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-1-university-blue-history/"
+              }
+            ],
+            "img": "assets/img/aj1-unc.jpg"
+          },
+          {
+            "name": "Shattered Backboard",
+            "type": "Retro",
+            "year": 2015,
+            "release_date": "2015-08-22",
+            "retail": 160,
+            "market_price": {
+              "low": 650,
+              "high": 1800
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#fff8dc",
+              "accent": "#d97706",
+              "laces": "#111111"
+            },
+            "story": "灵感来自 1985 年乔丹在意大利扣碎篮板的经典一扣。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-1-shattered-backboard/"
+              }
+            ],
+            "img": "assets/img/aj1-sbb.jpg"
+          },
+          {
+            "name": "Off-White × Chicago",
+            "type": "Collab",
+            "year": 2017,
+            "release_date": "2017-09-09",
+            "retail": 190,
+            "market_price": {
+              "low": 4500,
+              "high": 9000
+            },
+            "palette": {
+              "upper": "#c8102e",
+              "sole": "#f5f0e0",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "Virgil Abloh「The Ten」首发。解构主义鞋带 + 外露泡棉 + 手写引号标签。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch?s=the-ten"
+              }
+            ],
+            "img": "assets/img/aj1-offwhite.jpg"
+          }
+        ],
+        "hero_colorway": "Chicago",
+        "hero_img": "assets/img/aj1-hero.jpg",
+        "highlights": [
+          "1985 元年",
+          "Peter Moore 设计",
+          "禁穿传奇",
+          "PE 文化起点",
+          "三原色 OG"
+        ]
+      },
+      {
+        "id": "aj2",
+        "name": "Air Jordan 2",
+        "subtitle": "意大利制造 · 首款无 Swoosh 的 Jordan",
+        "year": 1986,
+        "designer": "Peter Moore / Bruce Kilgore",
+        "style_code": "408318",
+        "original_price": 100,
+        "market_price": {
+          "low": 150,
+          "high": 400
+        },
+        "icon_moment": "首双意大利制造的 Nike 篮球鞋",
+        "hero_palette": {
+          "upper": "#ffffff",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#c8102e",
+          "modelLabel": "Air Jordan 2",
+          "colorwayName": "Chicago OG"
+        },
+        "story": [
+          "AJ 2 是系列里首次尝试「高端路线」的产物：在意大利手工制造，零售价 100 美元——这个价格在 1986 年相当昂贵。设计师 Peter Moore 与 Bruce Kilgore（Air Force 1 之父）合作，刻意去除了 Nike Swoosh，用蜥蜴纹皮革打造不像篮球鞋的鞋。",
+          "AJ 2 销量平平，未赶上 AJ 1 的文化热潮。它间接促使 Peter Moore 离开，给了新人 Tinker Hatfield 在 AJ 3 上的机会——从此 Jordan 品牌命运改写。",
+          "2010 年起 Jordan Brand 开始小规模复刻，2022 Chicago OG 受到老粉欢迎。"
+        ],
+        "colorways": [
+          {
+            "name": "Chicago OG",
+            "type": "OG",
+            "year": 1986,
+            "release_date": "1986",
+            "retail": 100,
+            "market_price": {
+              "low": 180,
+              "high": 320
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "白红黑 Bulls 主色，2022 Retro 重现意大利蜥蜴纹工艺。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-2-chicago-retro-2022/"
+              }
+            ],
+            "img": "assets/img/aj2-chicago.jpg"
+          },
+          {
+            "name": "Bred",
+            "type": "OG",
+            "year": 1986,
+            "release_date": "1986",
+            "retail": 100,
+            "market_price": {
+              "low": 150,
+              "high": 280
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "最受欢迎的 AJ 2 OG 配色之一。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-2-retro-bred/"
+              }
+            ],
+            "img": "assets/img/aj2-bred.jpg"
+          },
+          {
+            "name": "Off-White × Black",
+            "type": "Collab",
+            "year": 2021,
+            "release_date": "2021-12-18",
+            "retail": 250,
+            "market_price": {
+              "low": 520,
+              "high": 900
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#f5f0e0",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "Virgil Abloh 遗作之一。发售前两周 Abloh 离世，这双成为 Off-White × Jordan 的永久纪念。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch/t/air-jordan-2-retro-sp-off-white-black"
+              }
+            ],
+            "img": "assets/img/aj2-offwhite.jpg"
+          },
+          {
+            "name": "Wing It",
+            "type": "Retro",
+            "year": 2008,
+            "release_date": "2008",
+            "retail": 130,
+            "market_price": {
+              "low": 180,
+              "high": 320
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "黑金 Wing It 主题，致敬 Jumpman 飞翔 Logo。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-2-wing-it/"
+              }
+            ],
+            "img": "assets/img/aj2-wing-it.jpg"
+          },
+          {
+            "name": "Just Don Beach",
+            "type": "Collab",
+            "year": 2015,
+            "release_date": "2015-09",
+            "retail": 650,
+            "market_price": {
+              "low": 800,
+              "high": 1500
+            },
+            "palette": {
+              "upper": "#fed7aa",
+              "sole": "#ffffff",
+              "accent": "#f97316",
+              "laces": "#f97316"
+            },
+            "story": "Don C × AJ 2 沙滩主题，奶油色绒面。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/just-don-air-jordan-2-beach/"
+              }
+            ],
+            "img": "assets/img/aj2-just-don.jpg"
+          },
+          {
+            "name": "Quai 54",
+            "type": "Retro",
+            "year": 2010,
+            "release_date": "2010",
+            "retail": 150,
+            "market_price": {
+              "low": 350,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#fde047"
+            },
+            "story": "巴黎 Quai 54 街球赛专属版，仅在法国发售。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-2-quai-54/"
+              }
+            ],
+            "img": "assets/img/aj2-quai-54.jpg"
+          }
+        ],
+        "hero_colorway": "Chicago OG",
+        "hero_img": "assets/img/aj2-hero.jpg",
+        "highlights": [
+          "1986 意大利制造",
+          "首款无 Swoosh Jordan",
+          "100 美元高端定价",
+          "蜥蜴纹皮革"
+        ]
+      },
+      {
+        "id": "aj3",
+        "name": "Air Jordan 3",
+        "subtitle": "Tinker Hatfield 首秀 · 可见气垫 + 爆裂纹",
+        "year": 1988,
+        "designer": "Tinker Hatfield",
+        "style_code": "136064",
+        "original_price": 100,
+        "market_price": {
+          "low": 180,
+          "high": 500
+        },
+        "icon_moment": "乔丹 1988 扣篮大赛罚球线起跳战靴",
+        "hero_palette": {
+          "upper": "#e5e5e5",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#ffffff",
+          "modelLabel": "Air Jordan 3",
+          "colorwayName": "White Cement"
+        },
+        "story": [
+          "1987 年乔丹几乎要转投 Adidas，是 Tinker Hatfield 的 AJ 3 让他决定留下。这双鞋带来三个首次：首次使用鞋侧可见气垫窗、首次采用爆裂纹皮革、首次使用 Jumpman 飞人跳投 Logo。",
+          "Spike Lee 以 Mars Blackmon 身份为 AJ 3 拍摄「It's gotta be the shoes!」广告，这句台词成为流行文化经典。同年乔丹穿 AJ 3 以罚球线起跳在扣篮大赛夺冠。",
+          "AJ 3 被乔丹本人多次称为「我最喜欢的一双 Air Jordan」。2024 White Cement Reimagined 定价 210 美元仍秒空。"
+        ],
+        "colorways": [
+          {
+            "name": "White Cement",
+            "type": "OG",
+            "year": 1988,
+            "release_date": "1988-01",
+            "retail": 100,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#e5e5e5",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "扣篮大赛战靴，2024 Reimagined 还原 Nike Air 后跟 Logo。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch/t/air-jordan-3-retro-white-cement-reimagined"
+              }
+            ],
+            "img": "assets/img/aj3-white-cement.jpg"
+          },
+          {
+            "name": "Black Cement",
+            "type": "OG",
+            "year": 1988,
+            "release_date": "1988",
+            "retail": 100,
+            "market_price": {
+              "low": 220,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#e5e5e5",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "黑色爆裂纹 + 红色 Jumpman，OG 代表作。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-3-black-cement-history/"
+              }
+            ],
+            "img": "assets/img/aj3-black-cement.jpg"
+          },
+          {
+            "name": "Fire Red",
+            "type": "OG",
+            "year": 1988,
+            "release_date": "1988",
+            "retail": 100,
+            "market_price": {
+              "low": 190,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "2022 复刻重置原 Nike Air 后跟 Logo。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-3-fire-red-2022/"
+              }
+            ],
+            "img": "assets/img/aj3-fire-red.png"
+          },
+          {
+            "name": "Mocha",
+            "type": "OG",
+            "year": 2001,
+            "release_date": "2001",
+            "retail": 100,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#92400e",
+              "sole": "#ffffff",
+              "accent": "#f5deb3",
+              "laces": "#ffffff"
+            },
+            "story": "棕色爆裂纹皮革，2018、2024 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-3-mocha/"
+              }
+            ],
+            "img": "assets/img/aj3-mocha.jpg"
+          },
+          {
+            "name": "True Blue",
+            "type": "OG",
+            "year": 1988,
+            "release_date": "1988",
+            "retail": 100,
+            "market_price": {
+              "low": 210,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#e5e5e5",
+              "sole": "#ffffff",
+              "accent": "#1d4ed8",
+              "laces": "#ffffff"
+            },
+            "story": "白蓝爆裂纹，2009、2024 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-3-true-blue-2024/"
+              }
+            ],
+            "img": "assets/img/aj3-true-blue.jpg"
+          },
+          {
+            "name": "Powder Blue",
+            "type": "Retro",
+            "year": 2014,
+            "release_date": "2014-03",
+            "retail": 170,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#a8d0e6",
+              "laces": "#a8d0e6"
+            },
+            "story": "粉蓝爆裂纹，UNC 北卡致敬色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-3-powder-blue/"
+              }
+            ],
+            "img": "assets/img/aj3-powder-blue.jpg"
+          }
+        ],
+        "hero_colorway": "White Cement",
+        "hero_img": "assets/img/aj3-hero.png",
+        "highlights": [
+          "Tinker 接棒",
+          "首款可见气垫",
+          "Jumpman Logo 诞生",
+          "1988 罚球线扣篮",
+          "Spike Lee 经典广告"
+        ]
+      },
+      {
+        "id": "aj4",
+        "name": "Air Jordan 4",
+        "subtitle": "首款全球发售 Jordan · 侧翼塑料挂带",
+        "year": 1989,
+        "designer": "Tinker Hatfield",
+        "style_code": "308497",
+        "original_price": 110,
+        "market_price": {
+          "low": 200,
+          "high": 550
+        },
+        "icon_moment": "乔丹「The Shot」绝杀克里夫兰战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#c8102e",
+          "modelLabel": "Air Jordan 4",
+          "colorwayName": "Bred OG"
+        },
+        "story": [
+          "AJ 4 是第一双全球发售的 Air Jordan（此前 AJ 1-3 仅美国发售）。Tinker Hatfield 大胆使用网面与三孔塑料挂带，兼顾透气性与脚踝支撑——这在当时是革命性的。",
+          "1989 年乔丹穿 Bred AJ 4 在季后赛首轮 G5 最后一秒跳投绝杀骑士，史称「The Shot」。这幕画面至今被印在几乎所有 AJ 4 Bred 鞋盒上。",
+          "AJ 4 也是首款出现在好莱坞电影的球鞋——《Do the Right Thing》。2019 Raptors、2023 Thunder、2024 Bred Reimagined 均为年度话题款。"
+        ],
+        "colorways": [
+          {
+            "name": "Bred OG",
+            "type": "OG",
+            "year": 1989,
+            "release_date": "1989-02",
+            "retail": 110,
+            "market_price": {
+              "low": 260,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "「The Shot」绝杀战靴。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch/t/air-jordan-4-retro-bred-reimagined"
+              }
+            ],
+            "img": "assets/img/aj4-bred.jpg"
+          },
+          {
+            "name": "White Cement",
+            "type": "OG",
+            "year": 1989,
+            "release_date": "1989-02",
+            "retail": 110,
+            "market_price": {
+              "low": 220,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#e5e5e5",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "《Do the Right Thing》同款。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch/t/air-jordan-4-retro-white-cement"
+              }
+            ],
+            "img": "assets/img/aj4-white-cement.png"
+          },
+          {
+            "name": "Military Blue",
+            "type": "OG",
+            "year": 1989,
+            "release_date": "1989",
+            "retail": 110,
+            "market_price": {
+              "low": 210,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#111111"
+            },
+            "story": "白蓝黑三色，2024 复刻采用 Nike Air 原版后跟 Logo。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-4-military-blue-2024/"
+              }
+            ],
+            "img": "assets/img/aj4-military-blue.png"
+          },
+          {
+            "name": "Eminem × Carhartt",
+            "type": "Collab",
+            "year": 2015,
+            "release_date": "2015-11",
+            "retail": 225,
+            "market_price": {
+              "low": 12000,
+              "high": 30000
+            },
+            "palette": {
+              "upper": "#5a3a1a",
+              "sole": "#2a2a2a",
+              "accent": "#d97706",
+              "laces": "#111111"
+            },
+            "story": "仅 10 双。AJ 4 史上最稀有款之一。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-4-eminem-carhartt/"
+              }
+            ],
+            "img": "assets/img/aj4-eminem.jpg"
+          },
+          {
+            "name": "Cool Grey",
+            "type": "Retro",
+            "year": 2004,
+            "release_date": "2004-03",
+            "retail": 130,
+            "market_price": {
+              "low": 220,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#94a3b8",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#fde047"
+            },
+            "story": "灰白蓝黄四色，AJ 4 复刻里最受欢迎的非 OG 款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-4-cool-grey/"
+              }
+            ],
+            "img": "assets/img/aj4-cool-grey.jpg"
+          },
+          {
+            "name": "Toro Bravo",
+            "type": "Retro",
+            "year": 2013,
+            "release_date": "2013-09",
+            "retail": 180,
+            "market_price": {
+              "low": 230,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "红色绒面 + 黑色配饰，斗牛主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-4-toro-bravo/"
+              }
+            ],
+            "img": "assets/img/aj4-toro-bravo.jpg"
+          },
+          {
+            "name": "Thunder",
+            "type": "Retro",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 165,
+            "market_price": {
+              "low": 250,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#111111",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "黑黄雷霆配色，AJ 4 复刻里最稀有的之一。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-4-thunder/"
+              }
+            ],
+            "img": "assets/img/aj4-thunder.jpg"
+          },
+          {
+            "name": "Travis Scott Cactus Jack",
+            "type": "Collab",
+            "year": 2018,
+            "release_date": "2018-02",
+            "retail": 225,
+            "market_price": {
+              "low": 1200,
+              "high": 2500
+            },
+            "palette": {
+              "upper": "#5a3a1a",
+              "sole": "#fde047",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "Travis Scott × AJ 4，鞋身印 Cactus Jack 字样。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/travis-scott-air-jordan-4-cactus-jack/"
+              }
+            ],
+            "img": "assets/img/aj4-travis-cj.jpg"
+          }
+        ],
+        "hero_colorway": "White Cement",
+        "hero_img": "assets/img/aj4-hero.webp",
+        "highlights": [
+          "1989 The Shot",
+          "首款全球发售",
+          "三孔塑料挂带",
+          "电影《Do the Right Thing》同款",
+          "Eminem 联名稀有"
+        ]
+      },
+      {
+        "id": "aj5",
+        "name": "Air Jordan 5",
+        "subtitle": "鲨鱼齿中底 · 3M 反光 · 灵感来自 P-51 野马战机",
+        "year": 1990,
+        "designer": "Tinker Hatfield",
+        "style_code": "136027",
+        "original_price": 125,
+        "market_price": {
+          "low": 200,
+          "high": 480
+        },
+        "icon_moment": "1990 得分王赛季主力战靴 · 首款 3M 反光篮球鞋",
+        "hero_palette": {
+          "upper": "#ffffff",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#111111",
+          "modelLabel": "Air Jordan 5",
+          "colorwayName": "Fire Red"
+        },
+        "story": [
+          "Tinker Hatfield 将二战 P-51 野马战机机头的鲨鱼齿涂装搬上鞋侧中底，这是 Air Jordan 历史上第一次直接引用飞机元素。AJ 5 还是首款使用 3M 反光材质（鞋舌）和半透明橡胶大底的篮球鞋——这些之后成为运动鞋行业标配。",
+          "1990 年乔丹穿 Fire Red AJ 5 斩获赛季得分王，这双鞋也成为老球迷眼中的「最美 Jordan」。",
+          "AJ 5 复刻频繁，2020 与巴黎圣日耳曼（PSG）的联名将法国时尚与美式街头结合。"
+        ],
+        "colorways": [
+          {
+            "name": "Fire Red",
+            "type": "OG",
+            "year": 1990,
+            "release_date": "1990-02",
+            "retail": 125,
+            "market_price": {
+              "low": 220,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#111111"
+            },
+            "story": "白红鲨鱼齿鼻祖。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-5-fire-red-2020/"
+              }
+            ],
+            "img": "assets/img/aj5-fire-red.png"
+          },
+          {
+            "name": "Metallic Silver",
+            "type": "OG",
+            "year": 1990,
+            "release_date": "1990",
+            "retail": 125,
+            "market_price": {
+              "low": 210,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c0c0c0",
+              "laces": "#111111"
+            },
+            "story": "白银鲨鱼齿，AJ 5 最早 OG 之一。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-5-metallic-silver-retro/"
+              }
+            ],
+            "img": "assets/img/aj5-metallic.jpg"
+          },
+          {
+            "name": "Grape",
+            "type": "OG",
+            "year": 1990,
+            "release_date": "1990",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#9ae6b4",
+              "accent": "#7c3aed",
+              "laces": "#7c3aed"
+            },
+            "story": "Will Smith《新鲜王子》同款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-5-grape-history/"
+              }
+            ],
+            "img": "assets/img/aj5-grape.jpg"
+          },
+          {
+            "name": "PSG",
+            "type": "Collab",
+            "year": 2020,
+            "release_date": "2020-10-02",
+            "retail": 225,
+            "market_price": {
+              "low": 450,
+              "high": 800
+            },
+            "palette": {
+              "upper": "#1d3a8a",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "巴黎圣日耳曼联名 · 法国国旗蓝白红 + PSG 队徽。",
+            "sources": [
+              {
+                "label": "Nike",
+                "url": "https://www.nike.com/launch/t/air-jordan-5-retro-paris-saint-germain"
+              }
+            ],
+            "img": "assets/img/aj5-psg.jpg"
+          },
+          {
+            "name": "Laney",
+            "type": "Retro",
+            "year": 2000,
+            "release_date": "2000",
+            "retail": 125,
+            "market_price": {
+              "low": 180,
+              "high": 350
+            },
+            "palette": {
+              "upper": "#fde047",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#1d3a8a"
+            },
+            "story": "Laney 高中黄蓝主色，致敬乔丹母校。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-5-laney/"
+              }
+            ],
+            "img": "assets/img/aj5-laney.jpg"
+          },
+          {
+            "name": "Tokyo 23",
+            "type": "Retro",
+            "year": 2011,
+            "release_date": "2011",
+            "retail": 175,
+            "market_price": {
+              "low": 350,
+              "high": 800
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#1a1a1a"
+            },
+            "story": "东京限定，仅在日本 23 家门店发售。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-5-tokyo-23/"
+              }
+            ],
+            "img": "assets/img/aj5-tokyo-23.jpg"
+          },
+          {
+            "name": "What The",
+            "type": "Retro",
+            "year": 2017,
+            "release_date": "2017-04",
+            "retail": 200,
+            "market_price": {
+              "low": 300,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#fbbf24",
+              "sole": "#22c55e",
+              "accent": "#dc2626",
+              "laces": "#7c3aed"
+            },
+            "story": "拼接 9 种 OG 配色元素的 What The 主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-5-what-the/"
+              }
+            ],
+            "img": "assets/img/aj5-what-the.jpg"
+          }
+        ],
+        "hero_colorway": "Fire Red",
+        "hero_img": "assets/img/aj5-hero.jpg",
+        "highlights": [
+          "1990 得分王",
+          "P-51 战机鲨鱼齿",
+          "首款 3M 反光",
+          "半透明大底",
+          "PSG 联名"
+        ]
+      },
+      {
+        "id": "aj6",
+        "name": "Air Jordan 6",
+        "subtitle": "乔丹首冠战靴 · 灵感来自保时捷 911",
+        "year": 1991,
+        "designer": "Tinker Hatfield",
+        "style_code": "384664",
+        "original_price": 125,
+        "market_price": {
+          "low": 210,
+          "high": 500
+        },
+        "icon_moment": "1991 乔丹生涯首冠 · 双孔鞋舌像保时捷 911 进气口",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#ff2d55",
+          "laces": "#ff2d55",
+          "modelLabel": "Air Jordan 6",
+          "colorwayName": "Infrared"
+        },
+        "story": [
+          "Tinker Hatfield 开着自己的保时捷 911 来到设计室，把车里的进气口、线条、内饰细节搬到了 AJ 6 上——鞋舌双孔、鞋跟红色拉片、清爽车身感的侧面曲线。",
+          "1991 年乔丹穿着 AJ 6 完成对 Magic Johnson 的总决赛复仇，拿下生涯第一冠。那场决赛里的黑红 Infrared 后来成为 AJ 6 的代名词。",
+          "AJ 6 是首款使用内置鞋跟拉带的篮球鞋。2014、2019、2024 Infrared 三次复刻均为当年爆款。"
+        ],
+        "colorways": [
+          {
+            "name": "Infrared",
+            "type": "OG",
+            "year": 1991,
+            "release_date": "1991-01",
+            "retail": 125,
+            "market_price": {
+              "low": 260,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#ff2d55",
+              "laces": "#ff2d55"
+            },
+            "story": "首冠战靴。2014、2019、2024 Infrared 三次复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-6-infrared-history/"
+              }
+            ],
+            "img": "assets/img/aj6-infrared.jpg"
+          },
+          {
+            "name": "Carmine",
+            "type": "OG",
+            "year": 1991,
+            "release_date": "1991",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "白红撞色，2014、2021 两次复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-6-carmine-2021/"
+              }
+            ],
+            "img": "assets/img/aj6-carmine.jpg"
+          },
+          {
+            "name": "Sport Blue (Olympic)",
+            "type": "OG",
+            "year": 1991,
+            "release_date": "1991",
+            "retail": 125,
+            "market_price": {
+              "low": 180,
+              "high": 350
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#111111"
+            },
+            "story": "白蓝配色，呼应 1992 梦之队美国队主色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-6-sport-blue/"
+              }
+            ],
+            "img": "assets/img/aj6-sport-blue.jpg"
+          },
+          {
+            "name": "Travis Scott × Olive",
+            "type": "Collab",
+            "year": 2019,
+            "release_date": "2019-09-20",
+            "retail": 250,
+            "market_price": {
+              "low": 800,
+              "high": 1800
+            },
+            "palette": {
+              "upper": "#5a5a3a",
+              "sole": "#e5e0c8",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "Travis Scott 首款 AJ 联名 · 橄榄绿 + 3M 反光 + 倒置 Swoosh。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/travis-scott-air-jordan-6-medium-olive/"
+              }
+            ],
+            "img": "assets/img/aj6-travis-scott.jpg"
+          },
+          {
+            "name": "Maroon",
+            "type": "OG",
+            "year": 1991,
+            "release_date": "1991",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#7c2d3f",
+              "laces": "#7c2d3f"
+            },
+            "story": "白栗红，2015、2022 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-6-maroon-2022/"
+              }
+            ],
+            "img": "assets/img/aj6-maroon.jpg"
+          },
+          {
+            "name": "DMP (Defining Moments)",
+            "type": "Retro",
+            "year": 2006,
+            "release_date": "2006-04",
+            "retail": 295,
+            "market_price": {
+              "low": 400,
+              "high": 900
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "DMP 双鞋包，黑金 + AJ 11 Concord 配套发售。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-6-dmp/"
+              }
+            ],
+            "img": "assets/img/aj6-dmp.jpg"
+          },
+          {
+            "name": "UNC",
+            "type": "Retro",
+            "year": 2017,
+            "release_date": "2017-08",
+            "retail": 220,
+            "market_price": {
+              "low": 250,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#a8d0e6",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#ffffff"
+            },
+            "story": "北卡蓝白配色致敬乔丹母校。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-6-unc/"
+              }
+            ],
+            "img": "assets/img/aj6-unc.jpg"
+          }
+        ],
+        "hero_colorway": "Infrared",
+        "hero_img": "assets/img/aj6-hero.jpg",
+        "highlights": [
+          "1991 首冠",
+          "保时捷 911 灵感",
+          "鞋舌双孔进气口",
+          "Infrared 红黑经典",
+          "Travis Scott 联名"
+        ]
+      },
+      {
+        "id": "aj7",
+        "name": "Air Jordan 7",
+        "subtitle": "乔丹卫冕二冠 + 巴塞罗那奥运梦之队战靴",
+        "year": 1992,
+        "designer": "Tinker Hatfield",
+        "style_code": "304775",
+        "original_price": 125,
+        "market_price": {
+          "low": 200,
+          "high": 450
+        },
+        "icon_moment": "1992 巴塞罗那奥运梦之队夺金战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#222222",
+          "accent": "#c8102e",
+          "laces": "#c8102e",
+          "modelLabel": "Air Jordan 7",
+          "colorwayName": "Bordeaux"
+        },
+        "story": [
+          "AJ 7 首次取消了标志性的 Nike Air 鞋跟可视气垫窗，由 Hatfield 从非洲部落艺术 Afropop 中汲取灵感——大胆的几何图案 + 饱和撞色，是当时篮球鞋圈的视觉炸弹。",
+          "1992 年梦之队在巴塞罗那奥运会夺金，乔丹全场穿着 AJ 7 Olympic 登场（但需要把 Reebok Logo 用美国国旗盖住——这是另一段营销经典）。同年他拿到职业生涯第二冠 + FMVP。",
+          "最具代表性的 OG 配色 Bordeaux 酒红色调灰底，2011、2015、2025 复刻。"
+        ],
+        "colorways": [
+          {
+            "name": "Bordeaux",
+            "type": "OG",
+            "year": 1992,
+            "release_date": "1992",
+            "retail": 125,
+            "market_price": {
+              "low": 220,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#3a3a3a",
+              "sole": "#ddcfa8",
+              "accent": "#7c2d3f",
+              "laces": "#7c2d3f"
+            },
+            "story": "AJ 7 颜值巅峰，被称为最成熟的 Hatfield 设计之一。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-7-bordeaux-history/"
+              }
+            ],
+            "img": "assets/img/aj7-bordeaux.jpg"
+          },
+          {
+            "name": "Olympic",
+            "type": "OG",
+            "year": 1992,
+            "release_date": "1992-07",
+            "retail": 125,
+            "market_price": {
+              "low": 210,
+              "high": 430
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#c8102e"
+            },
+            "story": "梦之队主力战靴，鞋跟印有 \"USA 45\"（乔丹奥运号码）。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-7-olympic/"
+              }
+            ],
+            "img": "assets/img/aj7-olympic.jpg"
+          },
+          {
+            "name": "Raptor",
+            "type": "OG",
+            "year": 1992,
+            "release_date": "1992",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#7c3aed",
+              "laces": "#ef4444"
+            },
+            "story": "黑紫红三色，后来也成为多伦多猛龙队的队色灵感。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-7-raptor/"
+              }
+            ],
+            "img": "assets/img/aj7-raptor.jpg"
+          },
+          {
+            "name": "Hare",
+            "type": "Retro",
+            "year": 1992,
+            "release_date": "1992",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#7c3aed",
+              "laces": "#fbbf24"
+            },
+            "story": "灵感来自 Bugs Bunny 兔八哥，Hare Jordan 广告同款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-7-hare/"
+              }
+            ],
+            "img": "assets/img/aj7-hare.jpg"
+          },
+          {
+            "name": "Cardinal",
+            "type": "OG",
+            "year": 1992,
+            "release_date": "1992",
+            "retail": 125,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#ffffff"
+            },
+            "story": "黑红主教配色，2011、2022 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-7-cardinal-2022/"
+              }
+            ],
+            "img": "assets/img/aj7-cardinal.jpg"
+          },
+          {
+            "name": "French Blue",
+            "type": "Retro",
+            "year": 2015,
+            "release_date": "2015-04",
+            "retail": 190,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d4ed8",
+              "laces": "#fde047"
+            },
+            "story": "白蓝黄三色，呼应法国国旗。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-7-french-blue/"
+              }
+            ],
+            "img": "assets/img/aj7-french-blue.jpg"
+          }
+        ],
+        "hero_colorway": "Bordeaux",
+        "hero_img": "assets/img/aj7-hero.jpg",
+        "highlights": [
+          "1992 二冠 + 奥运",
+          "Bordeaux 颜值巅峰",
+          "Hatfield 自评最爱",
+          "巴塞罗那梦之队"
+        ]
+      },
+      {
+        "id": "aj8",
+        "name": "Air Jordan 8",
+        "subtitle": "乔丹三冠王战靴 · 首款带魔术贴绑带",
+        "year": 1993,
+        "designer": "Tinker Hatfield",
+        "style_code": "305381",
+        "original_price": 125,
+        "market_price": {
+          "low": 180,
+          "high": 400
+        },
+        "icon_moment": "1993 乔丹三连冠战靴 · 首款篮球鞋绑带设计",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#ffffff",
+          "modelLabel": "Air Jordan 8",
+          "colorwayName": "Playoffs"
+        },
+        "story": [
+          "AJ 8 是 Tinker Hatfield 的「大胆之作」——双 Cross Strap 魔术贴绑带、毛茸茸的绒面内衬、鞋舌的卡通 Bugs Bunny 图案，全部集中在一双球鞋上。它是当时最重、最浮夸的 Jordan。",
+          "1993 年乔丹穿 AJ 8 Playoffs 黑版完成三连冠，随后第一次退役——这双鞋也被视为 Jordan Brand 初代「王朝终结」的象征。",
+          "AJ 8 复刻相对较少，2013、2017、2023 Playoffs 三次复刻。"
+        ],
+        "colorways": [
+          {
+            "name": "Playoffs",
+            "type": "OG",
+            "year": 1993,
+            "release_date": "1993",
+            "retail": 125,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "三连冠战靴。黑白红最经典。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-8-playoff-history/"
+              }
+            ],
+            "img": "assets/img/aj8-playoffs.jpg"
+          },
+          {
+            "name": "Aqua",
+            "type": "OG",
+            "year": 1993,
+            "release_date": "1993",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#06b6d4",
+              "laces": "#c8102e"
+            },
+            "story": "黑湖水蓝 + 紫 + 红，AJ 8 里最跳色的 OG。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-8-aqua/"
+              }
+            ],
+            "img": "assets/img/aj8-aqua.jpg"
+          },
+          {
+            "name": "Bugs Bunny",
+            "type": "Retro",
+            "year": 1993,
+            "release_date": "1993",
+            "retail": 125,
+            "market_price": {
+              "low": 190,
+              "high": 360
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#111111"
+            },
+            "story": "白红配色，鞋舌印有 Bugs Bunny 图案，呼应 Hare Jordan 广告片。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-8-bugs-bunny/"
+              }
+            ],
+            "img": "assets/img/aj8-bugs-bunny.jpg"
+          },
+          {
+            "name": "Three Peat",
+            "type": "Retro",
+            "year": 2007,
+            "release_date": "2007-12",
+            "retail": 145,
+            "market_price": {
+              "low": 200,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#7c3aed",
+              "laces": "#fbbf24"
+            },
+            "story": "三连冠主题，2024 复刻被称为最完美 Playoffs 复刻版。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-8-three-peat/"
+              }
+            ],
+            "img": "assets/img/aj8-three-peat.jpg"
+          },
+          {
+            "name": "Chrome",
+            "type": "Retro",
+            "year": 2003,
+            "release_date": "2003",
+            "retail": 145,
+            "market_price": {
+              "low": 230,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#9ca3af",
+              "laces": "#9ca3af"
+            },
+            "story": "白银 Chrome 主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-8-chrome/"
+              }
+            ],
+            "img": "assets/img/aj8-chrome.jpg"
+          }
+        ],
+        "hero_colorway": "Playoffs",
+        "hero_img": "assets/img/aj8-hero.png",
+        "highlights": [
+          "1993 三连冠",
+          "双 Cross Strap 绑带",
+          "Bugs Bunny 鞋舌",
+          "Hare Jordan 联名"
+        ]
+      },
+      {
+        "id": "aj9",
+        "name": "Air Jordan 9",
+        "subtitle": "退役期产物 · 乔丹未在 NBA 赛场上穿过",
+        "year": 1993,
+        "designer": "Tinker Hatfield",
+        "style_code": "302370",
+        "original_price": 125,
+        "market_price": {
+          "low": 160,
+          "high": 380
+        },
+        "icon_moment": "唯一一双乔丹未在常规赛上脚的正代 Jordan",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#ffffff",
+          "modelLabel": "Air Jordan 9",
+          "colorwayName": "Playoffs"
+        },
+        "story": [
+          "AJ 9 发布时乔丹已宣布第一次退役。Hatfield 没有因此停手，反而借机把鞋做得更国际化——鞋底印有 10 种语言写的「Athletic」「Independent」「Strong」等形容词，象征乔丹的全球影响力。",
+          "乔丹在小熊队打棒球期间穿着 AJ 9 训练，所以它在棒球迷里也有特殊地位。1994 年他复出篮球时，AJ 9 已被 AJ 10 接替。",
+          "AJ 9 复刻较少，2010、2016、2022 Playoffs 版为代表。"
+        ],
+        "colorways": [
+          {
+            "name": "Playoffs",
+            "type": "OG",
+            "year": 1993,
+            "release_date": "1993",
+            "retail": 125,
+            "market_price": {
+              "low": 180,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "黑白红，AJ 9 最受欢迎的 OG。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-9-playoff-2022/"
+              }
+            ],
+            "img": "assets/img/aj9-playoffs.jpg"
+          },
+          {
+            "name": "Statue (Charcoal)",
+            "type": "OG",
+            "year": 1993,
+            "release_date": "1993",
+            "retail": 125,
+            "market_price": {
+              "low": 170,
+              "high": 340
+            },
+            "palette": {
+              "upper": "#6b7280",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "灰色配色，呼应芝加哥联合中心乔丹铜像外袍颜色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-9-statue/"
+              }
+            ],
+            "img": "assets/img/aj9-statue.jpg"
+          },
+          {
+            "name": "Olive",
+            "type": "OG",
+            "year": 1993,
+            "release_date": "1993",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#5a5a3a",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#1a1a1a"
+            },
+            "story": "白橄榄绿，乔丹打棒球期间训练同款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-9-olive/"
+              }
+            ],
+            "img": "assets/img/aj9-olive.jpg"
+          },
+          {
+            "name": "Cool Grey",
+            "type": "Retro",
+            "year": 2002,
+            "release_date": "2002",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#94a3b8",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#dc2626"
+            },
+            "story": "灰白蓝红，AJ 9 Retro 经典款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-9-cool-grey/"
+              }
+            ],
+            "img": "assets/img/aj9-cool-grey.jpg"
+          },
+          {
+            "name": "Photo Blue",
+            "type": "Retro",
+            "year": 2014,
+            "release_date": "2014-04",
+            "retail": 175,
+            "market_price": {
+              "low": 180,
+              "high": 350
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#22d3ee",
+              "laces": "#1a1a1a"
+            },
+            "story": "白冰蓝 Photo Blue 主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-9-photo-blue/"
+              }
+            ],
+            "img": "assets/img/aj9-photo-blue.jpg"
+          }
+        ],
+        "hero_colorway": "Statue (Charcoal)",
+        "hero_img": "assets/img/aj9-hero.jpg",
+        "highlights": [
+          "1993 退役期产物",
+          "未在 NBA 实战",
+          "10 国语言鞋底",
+          "棒球训练同款"
+        ]
+      },
+      {
+        "id": "aj10",
+        "name": "Air Jordan 10",
+        "subtitle": "致敬乔丹生涯 · 鞋底刻有年份与成就",
+        "year": 1994,
+        "designer": "Tinker Hatfield",
+        "style_code": "310805",
+        "original_price": 125,
+        "market_price": {
+          "low": 170,
+          "high": 360
+        },
+        "icon_moment": "鞋底印有乔丹 1984-1994 的十个成就",
+        "hero_palette": {
+          "upper": "#ffffff",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#111111",
+          "modelLabel": "Air Jordan 10",
+          "colorwayName": "Chicago"
+        },
+        "story": [
+          "AJ 10 是一双「致敬鞋」——发布时乔丹还在退役期，Hatfield 把他从 1984 ROY、1988 MVP 到 1993 三连冠的 10 项荣誉全部印在鞋底。这是第一款把个人履历做进鞋底设计的签名鞋。",
+          "乔丹在 1995 年复出后穿 AJ 10 重返赛场，因此后来诞生了印有各城市 NBA 球队名的「City」系列（Chicago / New York / Orlando / Seattle 等）。",
+          "AJ 10 复刻数量丰富，2015 Chicago、2021 Seattle、2023 NYC 均受欢迎。"
+        ],
+        "colorways": [
+          {
+            "name": "Chicago",
+            "type": "OG",
+            "year": 1995,
+            "release_date": "1995-03",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#111111"
+            },
+            "story": "1995 年乔丹复出首战主队色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-10-chicago-2015/"
+              }
+            ],
+            "img": "assets/img/aj10-chicago.jpg"
+          },
+          {
+            "name": "Powder Blue",
+            "type": "OG",
+            "year": 1995,
+            "release_date": "1995",
+            "retail": 125,
+            "market_price": {
+              "low": 170,
+              "high": 320
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#a8d0e6",
+              "laces": "#111111"
+            },
+            "story": "AJ 10 City 系列 Orlando 版，灵感来自北卡大学色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-10-powder-blue/"
+              }
+            ],
+            "img": "assets/img/aj10-powder-blue.jpg"
+          },
+          {
+            "name": "Venom Green",
+            "type": "Retro",
+            "year": 2016,
+            "release_date": "2016-06",
+            "retail": 190,
+            "market_price": {
+              "low": 180,
+              "high": 280
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "黑绿配色，向毒液致敬的复刻款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-10-venom-green/"
+              }
+            ],
+            "img": "assets/img/aj10-venom-green.jpg"
+          },
+          {
+            "name": "Steel",
+            "type": "OG",
+            "year": 1995,
+            "release_date": "1995",
+            "retail": 125,
+            "market_price": {
+              "low": 180,
+              "high": 360
+            },
+            "palette": {
+              "upper": "#9ca3af",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#1a1a1a"
+            },
+            "story": "钢灰主题，AJ 10 Retro 中性百搭款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-10-steel/"
+              }
+            ],
+            "img": "assets/img/aj10-steel.jpg"
+          },
+          {
+            "name": "Stealth",
+            "type": "OG",
+            "year": 1995,
+            "release_date": "1995",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#dc2626"
+            },
+            "story": "黑白红，AJ 10 复出系列代表色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-10-stealth/"
+              }
+            ],
+            "img": "assets/img/aj10-stealth.jpg"
+          },
+          {
+            "name": "Westbrook PE",
+            "type": "PE",
+            "year": 2016,
+            "release_date": "2016-02",
+            "retail": 200,
+            "market_price": {
+              "low": 350,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#dc2626"
+            },
+            "story": "Russell Westbrook 个人专属配色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-10-westbrook/"
+              }
+            ],
+            "img": "assets/img/aj10-westbrook.jpg"
+          }
+        ],
+        "hero_colorway": "Chicago",
+        "hero_img": "assets/img/aj10-hero.jpg",
+        "highlights": [
+          "1994 致敬鞋",
+          "鞋底刻 10 大成就",
+          "1995 复出战靴",
+          "City 系列开端"
+        ]
+      },
+      {
+        "id": "aj11",
+        "name": "Air Jordan 11",
+        "subtitle": "漆皮鞋面 + 碳纤维板 · 球鞋史上颜值巅峰",
+        "year": 1995,
+        "designer": "Tinker Hatfield",
+        "style_code": "378037",
+        "original_price": 125,
+        "market_price": {
+          "low": 230,
+          "high": 550
+        },
+        "icon_moment": "1995-96 赛季乔丹 72 胜战靴 · 首款能上正式礼服场合的篮球鞋",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#ffffff",
+          "laces": "#ffffff",
+          "modelLabel": "Air Jordan 11",
+          "colorwayName": "Concord"
+        },
+        "story": [
+          "AJ 11 是 Tinker Hatfield 眼中「最骄傲的一双 Jordan」。它首次把汽车漆皮（Patent Leather）引入篮球鞋，还加入了碳纤维足弓板。这让 AJ 11 兼具篮球场与正式场合的通吃能力——乔丹甚至曾穿着 AJ 11 配西装上红毯。",
+          "1995-96 赛季乔丹穿 AJ 11 带领公牛拿下史诗级 72 胜，并夺得个人第四冠。Concord 黑白漆皮至今被很多人评为「史上最美球鞋」。",
+          "AJ 11 复刻周期固定每年圣诞节（Christmas drop），2018 Concord、2019 Bred、2023 DMP、2025 Concord 都是年度爆款。"
+        ],
+        "colorways": [
+          {
+            "name": "Concord",
+            "type": "OG",
+            "year": 1995,
+            "release_date": "1995-11",
+            "retail": 125,
+            "market_price": {
+              "low": 260,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#ffffff",
+              "laces": "#ffffff"
+            },
+            "story": "黑白漆皮，AJ 11 颜值巅峰。2011、2018、2025 圣诞复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-concord-history/"
+              }
+            ],
+            "img": "assets/img/aj11-concord.jpg"
+          },
+          {
+            "name": "Bred (Playoffs)",
+            "type": "OG",
+            "year": 1996,
+            "release_date": "1996",
+            "retail": 125,
+            "market_price": {
+              "low": 250,
+              "high": 520
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "乔丹第四冠 FMVP 战靴。2012、2019 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-bred-2019/"
+              }
+            ],
+            "img": "assets/img/aj11-bred.jpg"
+          },
+          {
+            "name": "Space Jam",
+            "type": "OG",
+            "year": 1995,
+            "release_date": "1995",
+            "retail": 125,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#06b6d4",
+              "laces": "#ffffff"
+            },
+            "story": "《空中大灌篮》电影乔丹上脚款。2009、2016 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-space-jam-history/"
+              }
+            ],
+            "img": "assets/img/aj11-space-jam.jpg"
+          },
+          {
+            "name": "Cool Grey",
+            "type": "Retro",
+            "year": 2001,
+            "release_date": "2001",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#6b7280",
+              "sole": "#ffffff",
+              "accent": "#ffffff",
+              "laces": "#ffffff"
+            },
+            "story": "白灰漆皮，2010、2021 复刻均为圣诞发售。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-cool-grey-2021/"
+              }
+            ],
+            "img": "assets/img/aj11-cool-grey.jpg"
+          },
+          {
+            "name": "72-10",
+            "type": "Retro",
+            "year": 2015,
+            "release_date": "2015-12",
+            "retail": 220,
+            "market_price": {
+              "low": 280,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#1a1a1a",
+              "accent": "#dc2626",
+              "laces": "#dc2626"
+            },
+            "story": "致敬公牛 1995-96 赛季 72 胜 10 负战绩。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-72-10/"
+              }
+            ],
+            "img": "assets/img/aj11-72-10.jpg"
+          },
+          {
+            "name": "Win Like '96",
+            "type": "Retro",
+            "year": 2017,
+            "release_date": "2017-12",
+            "retail": 220,
+            "market_price": {
+              "low": 250,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#7c2d3f",
+              "sole": "#ffffff",
+              "accent": "#ffffff",
+              "laces": "#ffffff"
+            },
+            "story": "酒红配色，致敬 1996 总冠军。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-win-like-96/"
+              }
+            ],
+            "img": "assets/img/aj11-win-like-96.jpg"
+          },
+          {
+            "name": "Jubilee (25th Anniversary)",
+            "type": "Retro",
+            "year": 2020,
+            "release_date": "2020-12",
+            "retail": 250,
+            "market_price": {
+              "low": 280,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#9ca3af",
+              "laces": "#9ca3af"
+            },
+            "story": "AJ 11 25 周年纪念版，鞋舌升级金属银边。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-11-jubilee/"
+              }
+            ],
+            "img": "assets/img/aj11-jubilee.jpg"
+          }
+        ],
+        "hero_colorway": "Concord",
+        "hero_img": "assets/img/aj11-hero.jpg",
+        "highlights": [
+          "1995 漆皮革命",
+          "碳纤维足弓板",
+          "72 胜战靴",
+          "圣诞档周期",
+          "史上最美球鞋公认"
+        ]
+      },
+      {
+        "id": "aj12",
+        "name": "Air Jordan 12",
+        "subtitle": "日本武士 + 日出旗帜灵感 · 流感之战战靴",
+        "year": 1996,
+        "designer": "Tinker Hatfield",
+        "style_code": "130690",
+        "original_price": 135,
+        "market_price": {
+          "low": 190,
+          "high": 420
+        },
+        "icon_moment": "1997 总决赛 G5 「流感之战」乔丹砍下 38 分战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#ffffff",
+          "modelLabel": "Air Jordan 12",
+          "colorwayName": "Flu Game"
+        },
+        "story": [
+          "AJ 12 的设计灵感来自日本幕府时代女鞋（Ogi）和日本旭日旗——鞋侧的线条设计就像日出光芒。它也是首款使用 Zoom Air 气垫 + 碳纤维底板的 Air Jordan。",
+          "1997 年总决赛 G5，乔丹在流感中拖着病体穿 AJ 12 Bred 砍下 38 分带领公牛客场击败爵士——这场「流感之战」的战靴后来以 104,000 美元拍卖成交，成为乔丹退役前的传奇物证。",
+          "AJ 12 复刻稳定，Taxi、Bred、CNY 系列均为老粉必收。"
+        ],
+        "colorways": [
+          {
+            "name": "Flu Game",
+            "type": "OG",
+            "year": 1997,
+            "release_date": "1997",
+            "retail": 135,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "流感之战实战鞋，2016、2024 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-12-flu-game-history/"
+              }
+            ],
+            "img": "assets/img/aj12-flu-game.jpg"
+          },
+          {
+            "name": "Taxi",
+            "type": "OG",
+            "year": 1997,
+            "release_date": "1997",
+            "retail": 135,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#fde047",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "白鞋黑底 + 纽约出租车黄配色。2013、2023 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-12-taxi-2023/"
+              }
+            ],
+            "img": "assets/img/aj12-taxi.jpg"
+          },
+          {
+            "name": "Playoffs",
+            "type": "OG",
+            "year": 1997,
+            "release_date": "1997",
+            "retail": 135,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "黑红漆皮 + 日出光线切片。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-12-playoff/"
+              }
+            ],
+            "img": "assets/img/aj12-playoffs.jpg"
+          },
+          {
+            "name": "Master",
+            "type": "Retro",
+            "year": 2016,
+            "release_date": "2016-04",
+            "retail": 190,
+            "market_price": {
+              "low": 230,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#ffffff"
+            },
+            "story": "黑金 Master 主题，致敬乔丹大师身份。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-12-master/"
+              }
+            ],
+            "img": "assets/img/aj12-master.png"
+          },
+          {
+            "name": "CNY (Chinese New Year)",
+            "type": "Retro",
+            "year": 2019,
+            "release_date": "2019-01",
+            "retail": 200,
+            "market_price": {
+              "low": 220,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#1a1a1a"
+            },
+            "story": "中国新年限定，红金主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-12-cny-2019/"
+              }
+            ],
+            "img": "assets/img/aj12-cny.jpg"
+          },
+          {
+            "name": "Reverse Flu Game",
+            "type": "Retro",
+            "year": 2024,
+            "release_date": "2024-08",
+            "retail": 210,
+            "market_price": {
+              "low": 230,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#ffffff"
+            },
+            "story": "Flu Game 反色版本：红黑互换。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-12-reverse-flu-game/"
+              }
+            ],
+            "img": "assets/img/aj12-reverse-flu.jpg"
+          }
+        ],
+        "hero_colorway": "Flu Game",
+        "hero_img": "assets/img/aj12-hero.jpg",
+        "highlights": [
+          "1996 日本武士灵感",
+          "首款 Zoom Air",
+          "1997 流感之战",
+          "10.4 万美元拍卖"
+        ]
+      },
+      {
+        "id": "aj13",
+        "name": "Air Jordan 13",
+        "subtitle": "黑豹灵感 · 鞋底全息鹰眼 Logo",
+        "year": 1997,
+        "designer": "Tinker Hatfield",
+        "style_code": "414571",
+        "original_price": 150,
+        "market_price": {
+          "low": 200,
+          "high": 450
+        },
+        "icon_moment": "1998 总决赛 G6「The Last Shot」乔丹绝杀战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#e5e5e5",
+          "accent": "#c8102e",
+          "laces": "#111111",
+          "modelLabel": "Air Jordan 13",
+          "colorwayName": "Bred"
+        },
+        "story": [
+          "Tinker Hatfield 把乔丹比作 Black Cat 黑豹——AJ 13 鞋侧的光泽质感、鞋跟的爪印形状、鞋底的全息「猫瞳」Logo，都来自这只黑豹。",
+          "1998 年总决赛 G6，乔丹穿 AJ 13 Bred 投进生涯公牛最后一投绝杀爵士，史称「The Last Shot」。这双鞋也成为乔丹公牛生涯的真正终结符。",
+          "AJ 13 复刻稳定，2017 Bred、2023 He Got Game、2024 Flint 三款都受老粉推崇。"
+        ],
+        "colorways": [
+          {
+            "name": "Bred",
+            "type": "OG",
+            "year": 1997,
+            "release_date": "1997-11",
+            "retail": 150,
+            "market_price": {
+              "low": 230,
+              "high": 460
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#e5e5e5",
+              "accent": "#c8102e",
+              "laces": "#111111"
+            },
+            "story": "「The Last Shot」绝杀战靴。2017、2024 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-13-bred-history/"
+              }
+            ],
+            "img": "assets/img/aj13-bred.jpg"
+          },
+          {
+            "name": "He Got Game",
+            "type": "OG",
+            "year": 1998,
+            "release_date": "1998",
+            "retail": 150,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "Spike Lee 电影《篮球梦》同款，白黑配色。2018、2023 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-13-he-got-game-2023/"
+              }
+            ],
+            "img": "assets/img/aj13-he-got-game.jpg"
+          },
+          {
+            "name": "Flint",
+            "type": "OG",
+            "year": 1998,
+            "release_date": "1998",
+            "retail": 150,
+            "market_price": {
+              "low": 200,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#111111"
+            },
+            "story": "白蓝灰三色。2010、2020 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-13-flint-2020/"
+              }
+            ],
+            "img": "assets/img/aj13-flint.jpg"
+          },
+          {
+            "name": "Chicago",
+            "type": "Retro",
+            "year": 2017,
+            "release_date": "2017-12",
+            "retail": 190,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#1a1a1a"
+            },
+            "story": "白红 Bulls 主色，2017 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-13-chicago-2017/"
+              }
+            ],
+            "img": "assets/img/aj13-chicago.jpg"
+          },
+          {
+            "name": "Reverse He Got Game",
+            "type": "Retro",
+            "year": 2019,
+            "release_date": "2019-06",
+            "retail": 200,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#1a1a1a",
+              "accent": "#ffffff",
+              "laces": "#ffffff"
+            },
+            "story": "He Got Game 反色版。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-13-reverse-he-got-game/"
+              }
+            ],
+            "img": "assets/img/aj13-reverse-hgg.jpg"
+          },
+          {
+            "name": "Brave Blue",
+            "type": "Retro",
+            "year": 2022,
+            "release_date": "2022-12",
+            "retail": 200,
+            "market_price": {
+              "low": 200,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#1d3a8a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#ffffff"
+            },
+            "story": "深蓝 Brave Blue，2022 圣诞复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-13-brave-blue/"
+              }
+            ],
+            "img": "assets/img/aj13-brave-blue.jpg"
+          }
+        ],
+        "hero_colorway": "Bred",
+        "hero_img": "assets/img/aj13-hero.jpg",
+        "highlights": [
+          "1997 黑豹主题",
+          "鞋底全息猫瞳",
+          "1998 The Last Shot",
+          "He Got Game 同名"
+        ]
+      },
+      {
+        "id": "aj14",
+        "name": "Air Jordan 14",
+        "subtitle": "法拉利 F355 灵感 · Jumpman 盾牌诞生",
+        "year": 1998,
+        "designer": "Tinker Hatfield / Mark Smith",
+        "style_code": "487471",
+        "original_price": 150,
+        "market_price": {
+          "low": 180,
+          "high": 420
+        },
+        "icon_moment": "1998 总决赛 G6 乔丹「The Last Shot」换装战靴（上半场穿 AJ 14 Last Shot）",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#111111",
+          "modelLabel": "Air Jordan 14",
+          "colorwayName": "Last Shot"
+        },
+        "story": [
+          "AJ 14 的灵感来自 Hatfield 的另一台车——法拉利 F355。鞋侧 7 个 Jumpman 盾牌 Logo 呼应法拉利车标、鞋跟的通风栅栏、低调的弧线车身，都是跑车语言。",
+          "1998 年乔丹穿 AJ 14 完成公牛王朝第二次三连冠。这是他与 Hatfield 合作的最后一款正代 Jordan——从 AJ 15 开始，Jordan Brand 进入「没有乔丹亲穿」的时代。",
+          "代表性复刻 Last Shot（2005, 2011, 2018, 2024）+ Indiglo + Candy Cane 均为稳定爆款。"
+        ],
+        "colorways": [
+          {
+            "name": "Last Shot",
+            "type": "OG",
+            "year": 1998,
+            "release_date": "1998-10",
+            "retail": 150,
+            "market_price": {
+              "low": 230,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#111111"
+            },
+            "story": "乔丹公牛生涯最后一个赛季战靴。2011、2018、2024 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-14-last-shot-history/"
+              }
+            ],
+            "img": "assets/img/aj14-last-shot.jpg"
+          },
+          {
+            "name": "Indiglo",
+            "type": "OG",
+            "year": 1999,
+            "release_date": "1999",
+            "retail": 150,
+            "market_price": {
+              "low": 180,
+              "high": 360
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#22d3ee",
+              "laces": "#111111"
+            },
+            "story": "黑底冰蓝点缀，仪表盘灯光配色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-14-indiglo/"
+              }
+            ],
+            "img": "assets/img/aj14-indiglo.jpg"
+          },
+          {
+            "name": "Candy Cane",
+            "type": "OG",
+            "year": 1999,
+            "release_date": "1999",
+            "retail": 150,
+            "market_price": {
+              "low": 180,
+              "high": 360
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "红白糖果拐杖色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-14-candy-cane/"
+              }
+            ],
+            "img": "assets/img/aj14-candy-cane.jpg"
+          },
+          {
+            "name": "Black Toe",
+            "type": "Retro",
+            "year": 2018,
+            "release_date": "2018-08",
+            "retail": 190,
+            "market_price": {
+              "low": 220,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#dc2626"
+            },
+            "story": "白红黑三色 AJ 14 Black Toe。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-14-black-toe/"
+              }
+            ],
+            "img": "assets/img/aj14-black-toe.jpg"
+          },
+          {
+            "name": "Ferrari Yellow",
+            "type": "Retro",
+            "year": 2005,
+            "release_date": "2005",
+            "retail": 150,
+            "market_price": {
+              "low": 280,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#fde047",
+              "sole": "#1a1a1a",
+              "accent": "#1a1a1a",
+              "laces": "#1a1a1a"
+            },
+            "story": "黄黑法拉利配色，致敬 AJ 14 设计原型。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-14-ferrari-yellow/"
+              }
+            ],
+            "img": "assets/img/aj14-ferrari.jpg"
+          },
+          {
+            "name": "Hyper Royal",
+            "type": "Retro",
+            "year": 2020,
+            "release_date": "2020-04",
+            "retail": 190,
+            "market_price": {
+              "low": 200,
+              "high": 380
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d4ed8",
+              "laces": "#1d4ed8"
+            },
+            "story": "白蓝 Hyper Royal 主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/air-jordan-14-hyper-royal/"
+              }
+            ],
+            "img": "assets/img/aj14-hyper-royal.jpg"
+          }
+        ],
+        "hero_colorway": "Last Shot",
+        "hero_img": "assets/img/aj14-hero.jpg",
+        "highlights": [
+          "1998 法拉利 F355",
+          "Jumpman 盾牌诞生",
+          "公牛王朝最后一战",
+          "Hatfield 与乔丹合作末作"
+        ]
+      }
+    ],
+    "cover_img": "assets/img/aj1-chicago.jpg"
+  },
+  "kobe": {
+    "cover_palette": {
+      "upper": "#7c3aed",
+      "sole": "#fde047",
+      "accent": "#111111",
+      "laces": "#111111",
+      "modelLabel": "Nike Kobe",
+      "colorwayName": "Black Mamba"
+    },
+    "models": [
+      {
+        "id": "kobe1",
+        "name": "Nike Zoom Kobe 1",
+        "subtitle": "科比与 Nike 的首款签名鞋 · 81 分战靴",
+        "year": 2005,
+        "designer": "Ken Link",
+        "style_code": "313143",
+        "original_price": 125,
+        "market_price": {
+          "low": 180,
+          "high": 500
+        },
+        "icon_moment": "2006 年 1 月 22 日 vs. 猛龙单场 81 分战靴",
+        "hero_palette": {
+          "upper": "#7c3aed",
+          "sole": "#fde047",
+          "accent": "#111111",
+          "laces": "#111111",
+          "modelLabel": "Nike Zoom Kobe 1",
+          "colorwayName": "81 Point Game"
+        },
+        "story": [
+          "科比离开 Adidas 来到 Nike 后的首款签名鞋。高帮设计保留了他从 Adidas 时代以来的穿着习惯，鞋身偏厚重，鞋跟配有 Zoom Air 气垫。",
+          "2005-06 赛季科比穿着 Zoom Kobe 1 拿下生涯第一个得分王，并在对阵多伦多猛龙的比赛里砍下史诗级的 81 分——NBA 历史第二高个人单场得分。",
+          "Zoom Kobe 1 Protro 系列于 2018 年启动复刻，重现「81 Point Game」「Close Out」「Mamba Rage」等经典配色。"
+        ],
+        "colorways": [
+          {
+            "name": "81 Point Game",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006-01",
+            "retail": 125,
+            "market_price": {
+              "low": 250,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#fde047",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "81 分之夜实战鞋，2018 Protro 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-1-protro-81-point-game/"
+              }
+            ],
+            "img": "assets/img/kobe1-81pt.webp"
+          },
+          {
+            "name": "Close Out",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#ffffff"
+            },
+            "story": "黑金配色，科比最爱的训练色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-1-protro-close-out/"
+              }
+            ],
+            "img": "assets/img/kobe1-close-out.png"
+          },
+          {
+            "name": "Mamba Rage (Protro)",
+            "type": "Retro",
+            "year": 2024,
+            "release_date": "2024",
+            "retail": 180,
+            "market_price": {
+              "low": 190,
+              "high": 300
+            },
+            "palette": {
+              "upper": "#c8102e",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "Mamba 黑蛇主题复刻版。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-1-protro-mamba-rage/"
+              }
+            ],
+            "img": "assets/img/kobe1-mamba-rage.jpg"
+          },
+          {
+            "name": "Lakers",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 125,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "紫金湖人主色 OG。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-1-lakers/"
+              }
+            ],
+            "img": "assets/img/kobe1-lakers.jpg"
+          },
+          {
+            "name": "Black Mamba",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 125,
+            "market_price": {
+              "low": 220,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "黑曼巴主题，2024 Protro 复刻。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-1-protro-black-mamba/"
+              }
+            ],
+            "img": "assets/img/kobe1-black-mamba.jpg"
+          },
+          {
+            "name": "Final Game (Protro)",
+            "type": "Retro",
+            "year": 2024,
+            "release_date": "2024-04",
+            "retail": 180,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#1a1a1a"
+            },
+            "story": "致敬科比退役战 60 分。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-1-protro-final-game/"
+              }
+            ],
+            "img": "assets/img/kobe1-final-game.jpg"
+          }
+        ],
+        "hero_colorway": "81 Point Game",
+        "hero_img": "assets/img/kobe1-hero.jpg",
+        "highlights": [
+          "2005 Nike 首签",
+          "81 分之夜",
+          "2018 Protro 启动",
+          "Mamba 起源"
+        ]
+      },
+      {
+        "id": "kobe2",
+        "name": "Nike Zoom Kobe 2",
+        "subtitle": "科比首次参与设计 · Ultimate / Strength / Lite 三版",
+        "year": 2006,
+        "designer": "Ken Link / Kobe Bryant",
+        "style_code": "316022",
+        "original_price": 125,
+        "market_price": {
+          "low": 300,
+          "high": 800
+        },
+        "icon_moment": "科比首款亲自参与设计的签名鞋",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#111111",
+          "modelLabel": "Nike Zoom Kobe 2",
+          "colorwayName": "Lakers Home"
+        },
+        "story": [
+          "Zoom Kobe 2 是科比第一次深度参与设计的签名鞋。它分为三个版本：Ultimate（顶配，全碳纤维足弓）、Strength（稳定版）、Lite（轻量版）——不同技术打不同的战术需求。",
+          "2006-07 赛季科比打出联盟最顶级的个人得分表演（场均 31.6 分），但鞋款整体销量不理想，成为科比系列里最被低估的一代。",
+          "从未复刻。OG 原版 Ultimate 在二级市场是 Kobe 正代里价格最高的。"
+        ],
+        "colorways": [
+          {
+            "name": "Lakers Home",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 125,
+            "market_price": {
+              "low": 400,
+              "high": 900
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#7c3aed",
+              "laces": "#fde047"
+            },
+            "story": "白底湖人紫金，科比主场配色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-2-history/"
+              }
+            ],
+            "img": "assets/img/kobe2-lakers-home.jpg"
+          },
+          {
+            "name": "Lightning",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 125,
+            "market_price": {
+              "low": 500,
+              "high": 1100
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "黑黄闪电配色，Kobe 2 最具辨识度的 OG。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-2-lightning/"
+              }
+            ],
+            "img": "assets/img/kobe2-lightning.png"
+          },
+          {
+            "name": "FTB Fade To Black",
+            "type": "OG",
+            "year": 2007,
+            "release_date": "2007",
+            "retail": 130,
+            "market_price": {
+              "low": 350,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#1a1a1a"
+            },
+            "story": "黑红配色，Kobe 2 罕见 OG。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-2-ftb/"
+              }
+            ],
+            "img": "assets/img/kobe2-ftb.png"
+          },
+          {
+            "name": "Strength White",
+            "type": "OG",
+            "year": 2006,
+            "release_date": "2006",
+            "retail": 125,
+            "market_price": {
+              "low": 380,
+              "high": 800
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#1d3a8a",
+              "laces": "#1d3a8a"
+            },
+            "story": "Strength 版本白蓝主色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-2-strength/"
+              }
+            ],
+            "img": "assets/img/kobe2-strength.jpg"
+          }
+        ],
+        "hero_colorway": "Lightning",
+        "hero_img": "assets/img/kobe2-hero.jpg",
+        "highlights": [
+          "2006 三版本系统",
+          "Ultimate / Strength / Lite",
+          "未复刻",
+          "OG 高价"
+        ]
+      },
+      {
+        "id": "kobe3",
+        "name": "Nike Zoom Kobe 3",
+        "subtitle": "黑曼巴正式亮相 · 华夫饼网格鞋面",
+        "year": 2007,
+        "designer": "Ken Link / Eric Avar",
+        "style_code": "318090",
+        "original_price": 130,
+        "market_price": {
+          "low": 200,
+          "high": 500
+        },
+        "icon_moment": "2007-08 赛季 MVP 战靴 · 「黑曼巴」绰号正式成形",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#ffffff",
+          "modelLabel": "Nike Zoom Kobe 3",
+          "colorwayName": "All-Star"
+        },
+        "story": [
+          "Zoom Kobe 3 是 Black Mamba 这个绰号的正式亮相——鞋舌首次出现 Mamba 小标，灵感来自科比自己起的绰号和女儿 Natalia。鞋面使用「华夫饼」网格材质，从鞋面延伸到鞋底。",
+          "2007-08 赛季科比穿 Kobe 3 拿下职业生涯唯一一次常规赛 MVP，这双鞋也成为「MVP 战靴」。",
+          "复刻较少，2024 Protro 重启。"
+        ],
+        "colorways": [
+          {
+            "name": "All-Star",
+            "type": "OG",
+            "year": 2008,
+            "release_date": "2008-02",
+            "retail": 130,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#ffffff"
+            },
+            "story": "2008 全明星赛战靴。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-3-all-star/"
+              }
+            ],
+            "img": "assets/img/kobe3-all-star.jpg"
+          },
+          {
+            "name": "Lakers",
+            "type": "OG",
+            "year": 2008,
+            "release_date": "2008",
+            "retail": 130,
+            "market_price": {
+              "low": 230,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#ffffff"
+            },
+            "story": "紫金湖人主色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-3-lakers/"
+              }
+            ],
+            "img": "assets/img/kobe3-lakers.png"
+          },
+          {
+            "name": "Black Mamba",
+            "type": "OG",
+            "year": 2008,
+            "release_date": "2008",
+            "retail": 130,
+            "market_price": {
+              "low": 230,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "黑曼巴主题，鞋舌首次出现 Mamba 标识。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-3-black-mamba/"
+              }
+            ],
+            "img": "assets/img/kobe3-black-mamba.jpg"
+          },
+          {
+            "name": "Houston (All-Star Pack)",
+            "type": "OG",
+            "year": 2008,
+            "release_date": "2008-02",
+            "retail": 130,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#ffffff"
+            },
+            "story": "红黑配色，呼应 2008 全明星举办地休斯顿。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-zoom-kobe-3-houston/"
+              }
+            ],
+            "img": "assets/img/kobe3-houston.jpg"
+          }
+        ],
+        "hero_colorway": "All-Star",
+        "hero_img": "assets/img/kobe3-hero.png",
+        "highlights": [
+          "2007 黑曼巴定型",
+          "MVP 战靴",
+          "华夫饼网格鞋面",
+          "鞋舌 Mamba 标识首现"
+        ]
+      },
+      {
+        "id": "kobe4",
+        "name": "Nike Zoom Kobe 4",
+        "subtitle": "篮球鞋低帮革命的开始",
+        "year": 2008,
+        "designer": "Eric Avar",
+        "style_code": "344335",
+        "original_price": 140,
+        "market_price": {
+          "low": 250,
+          "high": 600
+        },
+        "icon_moment": "科比 OK 分家后首个总冠军战靴 · 低帮篮球鞋开山之作",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#fde047",
+          "laces": "#111111",
+          "modelLabel": "Nike Zoom Kobe 4",
+          "colorwayName": "Del Sol"
+        },
+        "story": [
+          "科比告诉 Eric Avar：「我想要一双像足球鞋那样的低帮篮球鞋。」当时 NBA 主流仍是高帮，很多人担心脚踝伤。Avar 用 Flywire 飞线科技解决了包裹问题，做出了系列里第一双低帮——Kobe 4。",
+          "2008-09 赛季科比穿 Kobe 4 率湖人夺冠，这也是 OK 分家后他的首个总冠军，也是 Kobe 4 的巅峰时刻。随后 NBA 低帮风潮正式开启。",
+          "2018 Protro 复刻重新掀起热潮，至今仍是 Kobe 系列复刻常驻款。"
+        ],
+        "colorways": [
+          {
+            "name": "Del Sol",
+            "type": "OG",
+            "year": 2008,
+            "release_date": "2008-11",
+            "retail": 140,
+            "market_price": {
+              "low": 280,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#111111"
+            },
+            "story": "黑黄配色，2018 Protro 复刻版更火。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-4-protro-del-sol/"
+              }
+            ],
+            "img": "assets/img/kobe4-del-sol.jpg"
+          },
+          {
+            "name": "Carpe Diem",
+            "type": "OG",
+            "year": 2009,
+            "release_date": "2009",
+            "retail": 140,
+            "market_price": {
+              "low": 250,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "白红配色，拉丁文「活在当下」。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-4-carpe-diem/"
+              }
+            ],
+            "img": "assets/img/kobe4-carpe-diem.jpg"
+          },
+          {
+            "name": "Undefeated × Gold (Protro)",
+            "type": "Collab",
+            "year": 2018,
+            "release_date": "2018-08-10",
+            "retail": 180,
+            "market_price": {
+              "low": 500,
+              "high": 1200
+            },
+            "palette": {
+              "upper": "#fbbf24",
+              "sole": "#ffffff",
+              "accent": "#7c3aed",
+              "laces": "#7c3aed"
+            },
+            "story": "致敬 OK 分家后首冠的金色奖杯。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-4-protro-undefeated/"
+              }
+            ],
+            "img": "assets/img/kobe4-undefeated.jpg"
+          },
+          {
+            "name": "Black Mamba",
+            "type": "OG",
+            "year": 2009,
+            "release_date": "2009-04",
+            "retail": 140,
+            "market_price": {
+              "low": 280,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "黑曼巴主题，2024 Protro 复刻爆款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-4-protro-black-mamba/"
+              }
+            ],
+            "img": "assets/img/kobe4-black-mamba.jpg"
+          },
+          {
+            "name": "Year of the Mamba (Protro)",
+            "type": "Retro",
+            "year": 2018,
+            "release_date": "2018-09",
+            "retail": 180,
+            "market_price": {
+              "low": 350,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "Mamba 蛇年主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-4-protro-year-of-the-mamba/"
+              }
+            ],
+            "img": "assets/img/kobe4-year-mamba.jpg"
+          }
+        ],
+        "hero_colorway": "Del Sol",
+        "hero_img": "assets/img/kobe4-hero.jpg",
+        "highlights": [
+          "2008 低帮革命",
+          "Flywire 飞线",
+          "OK 分家后首冠",
+          "2018 Protro 爆款"
+        ]
+      },
+      {
+        "id": "kobe5",
+        "name": "Nike Zoom Kobe 5",
+        "subtitle": "巅峰时期战靴 · 连冠纪念",
+        "year": 2009,
+        "designer": "Eric Avar",
+        "style_code": "386429",
+        "original_price": 140,
+        "market_price": {
+          "low": 230,
+          "high": 550
+        },
+        "icon_moment": "2010 湖人背靠背夺冠战靴 · 绝杀太阳 G6 战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#fbbf24",
+          "laces": "#c8102e",
+          "modelLabel": "Nike Zoom Kobe 5",
+          "colorwayName": "Chaos"
+        },
+        "story": [
+          "Zoom Kobe 5 延续 Kobe 4 的低帮哲学，但鞋面更轻薄。这双鞋陪伴科比完成 2009-10 赛季背靠背总冠军，也是他职业生涯第五冠。",
+          "2010 年西决抢七大战科比砍下 37 分穿的就是 Kobe 5 Lakers 紫金配色。Chaos（小丑）配色灵感来自《黑暗骑士》，2020 Protro 复刻是最受欢迎的版本之一。",
+          "Kobe 5 Protro 系列于 2020 年科比离世后启动，成为纪念性最强的复刻线。"
+        ],
+        "colorways": [
+          {
+            "name": "Chaos (Joker)",
+            "type": "OG",
+            "year": 2010,
+            "release_date": "2010",
+            "retail": 140,
+            "market_price": {
+              "low": 250,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#c8102e"
+            },
+            "story": "黑黄红小丑配色，2020 Protro 复刻爆款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-5-protro-chaos/"
+              }
+            ],
+            "img": "assets/img/kobe5-chaos.jpg"
+          },
+          {
+            "name": "Lakers (Home)",
+            "type": "OG",
+            "year": 2009,
+            "release_date": "2009-11",
+            "retail": 140,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#ffffff"
+            },
+            "story": "紫金主色，连冠实战鞋。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-5-lakers/"
+              }
+            ],
+            "img": "assets/img/kobe5-lakers-home.png"
+          },
+          {
+            "name": "Bruce Lee (Protro)",
+            "type": "Retro",
+            "year": 2020,
+            "release_date": "2020-04-09",
+            "retail": 180,
+            "market_price": {
+              "low": 400,
+              "high": 900
+            },
+            "palette": {
+              "upper": "#fde047",
+              "sole": "#111111",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "致敬李小龙 + 科比的跨界联结，鞋跟印有李小龙侧踢剪影。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-5-protro-bruce-lee-2020/"
+              }
+            ],
+            "img": "assets/img/kobe5-bruce-lee.jpg"
+          },
+          {
+            "name": "5 Rings",
+            "type": "OG",
+            "year": 2010,
+            "release_date": "2010-06",
+            "retail": 140,
+            "market_price": {
+              "low": 250,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#fde047",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "致敬科比 5 个总冠军戒指。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-5-5-rings/"
+              }
+            ],
+            "img": "assets/img/kobe5-5-rings.jpg"
+          },
+          {
+            "name": "Aces",
+            "type": "OG",
+            "year": 2010,
+            "release_date": "2010",
+            "retail": 140,
+            "market_price": {
+              "low": 230,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#dc2626"
+            },
+            "story": "黑红扑克 A 主题，致敬科比黑马传说。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-5-aces/"
+              }
+            ],
+            "img": "assets/img/kobe5-aces.jpg"
+          },
+          {
+            "name": "Big Stage",
+            "type": "OG",
+            "year": 2010,
+            "release_date": "2010-04",
+            "retail": 140,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#fde047"
+            },
+            "story": "红白黑舞台主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-5-big-stage/"
+              }
+            ],
+            "img": "assets/img/kobe5-big-stage.jpg"
+          }
+        ],
+        "hero_colorway": "Chaos (Joker)",
+        "hero_img": "assets/img/kobe5-hero.jpg",
+        "highlights": [
+          "2009 巅峰之作",
+          "背靠背连冠",
+          "Chaos 小丑配色",
+          "Bruce Lee Protro 致敬"
+        ]
+      },
+      {
+        "id": "kobe6",
+        "name": "Nike Zoom Kobe 6",
+        "subtitle": "蛇皮鞋面 · Black Mamba 美学巅峰",
+        "year": 2010,
+        "designer": "Eric Avar",
+        "style_code": "429659",
+        "original_price": 140,
+        "market_price": {
+          "low": 300,
+          "high": 800
+        },
+        "icon_moment": "科比职业生涯最后一冠（2010）后的战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#c8102e",
+          "accent": "#fde047",
+          "laces": "#c8102e",
+          "modelLabel": "Nike Zoom Kobe 6",
+          "colorwayName": "Grinch"
+        },
+        "story": [
+          "Eric Avar 把科比比作蛇——Kobe 6 的鞋面用三角形小鳞片拼接，成为系列里视觉辨识度最高的一代。这双鞋也被很多老粉视为「Kobe 系列颜值巅峰」。",
+          "2010-11 赛季科比虽未再夺冠，但 Kobe 6 的文化影响力延续至今。Grinch（圣诞精灵）绿红配色是 2010 年圣诞大战 vs. 热火时的实战鞋，也是最被追捧的 Kobe 配色之一。",
+          "2020 年科比离世后 Grinch Protro 复刻引发抢购潮，球鞋市场上一度炒到 2000 美元以上。"
+        ],
+        "colorways": [
+          {
+            "name": "Grinch",
+            "type": "OG",
+            "year": 2010,
+            "release_date": "2010-12-25",
+            "retail": 140,
+            "market_price": {
+              "low": 450,
+              "high": 1200
+            },
+            "palette": {
+              "upper": "#22c55e",
+              "sole": "#c8102e",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "圣诞大战战靴，2020 Protro 再现，均为爆款。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-6-protro-grinch-2020/"
+              }
+            ],
+            "img": "assets/img/kobe6-grinch.jpg"
+          },
+          {
+            "name": "Venice Beach",
+            "type": "OG",
+            "year": 2011,
+            "release_date": "2011",
+            "retail": 140,
+            "market_price": {
+              "low": 280,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#fbbf24",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#ef4444"
+            },
+            "story": "威尼斯海滩多色配色，致敬洛杉矶街头。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-6-venice-beach-protro/"
+              }
+            ],
+            "img": "assets/img/kobe6-venice-beach.jpg"
+          },
+          {
+            "name": "Mambacita Sweet 16 (Protro)",
+            "type": "Retro",
+            "year": 2024,
+            "release_date": "2024",
+            "retail": 190,
+            "market_price": {
+              "low": 250,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#ec4899",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "致敬科比女儿 Gigi 的 Mambacita 版本。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-6-protro-mambacita/"
+              }
+            ],
+            "img": "assets/img/kobe6-mambacita.jpg"
+          },
+          {
+            "name": "3D",
+            "type": "OG",
+            "year": 2011,
+            "release_date": "2011-02",
+            "retail": 160,
+            "market_price": {
+              "low": 380,
+              "high": 800
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#06b6d4",
+              "laces": "#dc2626"
+            },
+            "story": "全明星限定，3D 立体红蓝主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-6-3d/"
+              }
+            ],
+            "img": "assets/img/kobe6-3d.jpg"
+          },
+          {
+            "name": "Helicopter",
+            "type": "OG",
+            "year": 2010,
+            "release_date": "2010",
+            "retail": 140,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#fde047",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#dc2626"
+            },
+            "story": "黄黑直升机主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-6-helicopter/"
+              }
+            ],
+            "img": "assets/img/kobe6-helicopter.jpg"
+          },
+          {
+            "name": "Reverse Grinch (Protro)",
+            "type": "Retro",
+            "year": 2024,
+            "release_date": "2024-12",
+            "retail": 190,
+            "market_price": {
+              "low": 220,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#22c55e",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "Grinch 反色版本，红绿互换。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-6-protro-reverse-grinch/"
+              }
+            ],
+            "img": "assets/img/kobe6-reverse-grinch.jpg"
+          }
+        ],
+        "hero_colorway": "Grinch",
+        "hero_img": "assets/img/kobe6-hero.jpg",
+        "highlights": [
+          "2010 蛇皮鞋面",
+          "颜值天花板",
+          "Grinch 圣诞战靴",
+          "Mambacita 致敬 Gigi"
+        ]
+      },
+      {
+        "id": "kobe7",
+        "name": "Nike Zoom Kobe 7",
+        "subtitle": "System 系统鞋垫 · 根据对手换战术",
+        "year": 2011,
+        "designer": "Eric Avar",
+        "style_code": "488244",
+        "original_price": 150,
+        "market_price": {
+          "low": 200,
+          "high": 450
+        },
+        "icon_moment": "首款可换鞋垫切换两种脚感的签名鞋",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#fbbf24",
+          "laces": "#fbbf24",
+          "modelLabel": "Nike Zoom Kobe 7",
+          "colorwayName": "Predator"
+        },
+        "story": [
+          "Kobe 7 被命名为「System」——鞋内附带两种鞋垫可以切换：Attack Fast（灵活）和 Attack Strong（稳固）。科比解释说「每场比赛都不同，球鞋也应该一样」。",
+          "2011-12 赛季科比穿 Kobe 7 砍下生涯第 30000 分，成为 NBA 历史上达到该里程碑最年轻的球员。",
+          "Kobe 7 Predator（黑猫）灵感来自生猛兽类系列，至今仍是配色代表。"
+        ],
+        "colorways": [
+          {
+            "name": "Predator",
+            "type": "OG",
+            "year": 2012,
+            "release_date": "2012-01",
+            "retail": 150,
+            "market_price": {
+              "low": 220,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "黑金猛兽主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-7-predator/"
+              }
+            ],
+            "img": "assets/img/kobe7-predator.jpg"
+          },
+          {
+            "name": "Cheetah",
+            "type": "OG",
+            "year": 2012,
+            "release_date": "2012",
+            "retail": 150,
+            "market_price": {
+              "low": 200,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#fbbf24",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "猎豹配色，呼应科比的速度。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-7-cheetah/"
+              }
+            ],
+            "img": "assets/img/kobe7-cheetah.jpg"
+          },
+          {
+            "name": "Year of the Dragon",
+            "type": "OG",
+            "year": 2012,
+            "release_date": "2012-01",
+            "retail": 170,
+            "market_price": {
+              "low": 250,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "中国龙年限定，红金主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-7-year-of-the-dragon/"
+              }
+            ],
+            "img": "assets/img/kobe7-yotd.jpg"
+          },
+          {
+            "name": "Christmas",
+            "type": "OG",
+            "year": 2011,
+            "release_date": "2011-12",
+            "retail": 150,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#dc2626",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "圣诞大战配色，红绿主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-7-christmas/"
+              }
+            ],
+            "img": "assets/img/kobe7-christmas.jpg"
+          },
+          {
+            "name": "Olympic Galaxy",
+            "type": "OG",
+            "year": 2012,
+            "release_date": "2012-08",
+            "retail": 150,
+            "market_price": {
+              "low": 230,
+              "high": 460
+            },
+            "palette": {
+              "upper": "#1d3a8a",
+              "sole": "#ffffff",
+              "accent": "#7c3aed",
+              "laces": "#fde047"
+            },
+            "story": "伦敦奥运银河主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-7-galaxy/"
+              }
+            ],
+            "img": "assets/img/kobe7-olympic-galaxy.jpg"
+          }
+        ],
+        "hero_colorway": "Predator",
+        "hero_img": "assets/img/kobe7-hero.jpg",
+        "highlights": [
+          "2011 System 系统",
+          "可换战术鞋垫",
+          "30000 分里程碑",
+          "Predator 黑金"
+        ]
+      },
+      {
+        "id": "kobe8",
+        "name": "Nike Zoom Kobe 8",
+        "subtitle": "System 继续 · 鞋面最轻薄的一代",
+        "year": 2012,
+        "designer": "Eric Avar",
+        "style_code": "555035",
+        "original_price": 140,
+        "market_price": {
+          "low": 200,
+          "high": 450
+        },
+        "icon_moment": "2012-13 赛季阿基里斯腱断裂前最后一款签名鞋",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#22c55e",
+          "laces": "#22c55e",
+          "modelLabel": "Nike Zoom Kobe 8",
+          "colorwayName": "Venomenon"
+        },
+        "story": [
+          "Kobe 8 采用 Engineered Mesh 工程网面——这在当时的篮球鞋领域是革命性的，让鞋面几乎没有重量。System 概念继续，但把两种鞋垫精简为更稳定的一套。",
+          "2013 年 4 月 12 日对阵勇士，科比穿着 Kobe 8 在第四节阿基里斯腱断裂——这是 Kobe 8 的历史性时刻，也是科比生涯的转折点。",
+          "2024 Protro 复刻将经典 Venomenon、Hornets、Mamba Forever 等配色一一重现。"
+        ],
+        "colorways": [
+          {
+            "name": "Venomenon",
+            "type": "OG",
+            "year": 2013,
+            "release_date": "2013",
+            "retail": 140,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "黑绿毒物主题，Kobe 8 代表色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-8-protro-venomenon/"
+              }
+            ],
+            "img": "assets/img/kobe8-venomenon.jpg"
+          },
+          {
+            "name": "Mambacurial",
+            "type": "OG",
+            "year": 2013,
+            "release_date": "2013",
+            "retail": 140,
+            "market_price": {
+              "low": 230,
+              "high": 460
+            },
+            "palette": {
+              "upper": "#7c3aed",
+              "sole": "#ffffff",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "紫金 + 霓虹绿，致敬 Nike Mercurial 足球鞋。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/kobe-8-mambacurial/"
+              }
+            ],
+            "img": "assets/img/kobe8-mambacurial.png"
+          },
+          {
+            "name": "Sulfur Yellow",
+            "type": "OG",
+            "year": 2013,
+            "release_date": "2013-04",
+            "retail": 140,
+            "market_price": {
+              "low": 230,
+              "high": 480
+            },
+            "palette": {
+              "upper": "#fde047",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#dc2626"
+            },
+            "story": "硫磺黄主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-8-sulfur/"
+              }
+            ],
+            "img": "assets/img/kobe8-sulfur.jpg"
+          },
+          {
+            "name": "Christmas (Easter)",
+            "type": "OG",
+            "year": 2013,
+            "release_date": "2013-12",
+            "retail": 140,
+            "market_price": {
+              "low": 200,
+              "high": 420
+            },
+            "palette": {
+              "upper": "#ec4899",
+              "sole": "#ffffff",
+              "accent": "#22c55e",
+              "laces": "#22c55e"
+            },
+            "story": "圣诞 Easter 主题，粉绿撞色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-8-easter-christmas/"
+              }
+            ],
+            "img": "assets/img/kobe8-easter.png"
+          },
+          {
+            "name": "All-Star (Galaxy)",
+            "type": "OG",
+            "year": 2013,
+            "release_date": "2013-02",
+            "retail": 180,
+            "market_price": {
+              "low": 280,
+              "high": 600
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#7c3aed"
+            },
+            "story": "2013 全明星限定，星系主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-8-all-star/"
+              }
+            ],
+            "img": "assets/img/kobe8-all-star-galaxy.jpg"
+          }
+        ],
+        "hero_colorway": "Venomenon",
+        "hero_img": "assets/img/kobe8-hero.jpg",
+        "highlights": [
+          "2012 极致轻薄",
+          "Engineered Mesh 网面",
+          "阿基里斯断裂前作",
+          "Venomenon 黑绿"
+        ]
+      },
+      {
+        "id": "kobe9",
+        "name": "Nike Kobe 9 Elite / Low",
+        "subtitle": "高帮 Flyknit · 系列最具争议设计",
+        "year": 2013,
+        "designer": "Eric Avar",
+        "style_code": "630847",
+        "original_price": 225,
+        "market_price": {
+          "low": 180,
+          "high": 550
+        },
+        "icon_moment": "首款使用 Flyknit 鞋面的篮球鞋 · 唯一一代高帮 Kobe",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#fbbf24",
+          "laces": "#fbbf24",
+          "modelLabel": "Nike Kobe 9 Elite",
+          "colorwayName": "Masterpiece"
+        },
+        "story": [
+          "Kobe 9 Elite 是系列里唯一的高帮设计——从低帮回到高帮，Eric Avar 解释是为了支持刚从阿基里斯腱伤病恢复的科比。这也是 Nike 首款使用 Flyknit 鞋面的篮球鞋。",
+          "Kobe 9 Elite 与 Low 两个版本并行，Elite 定价 225 美元是科比系列最贵的一代。Masterpiece（杰作）白金配色致敬文艺复兴艺术。",
+          "由于 Flyknit 高帮风格过于前卫，Kobe 9 是 Kobe 系列里销量最不理想的一代，但收藏价值反而因此提升。"
+        ],
+        "colorways": [
+          {
+            "name": "Masterpiece",
+            "type": "OG",
+            "year": 2014,
+            "release_date": "2014-05",
+            "retail": 225,
+            "market_price": {
+              "low": 300,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#f5f0e0",
+              "sole": "#ffffff",
+              "accent": "#c8a85a",
+              "laces": "#c8a85a"
+            },
+            "story": "白金致敬文艺复兴，科比本人最爱的一代。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-9-elite-masterpiece/"
+              }
+            ],
+            "img": "assets/img/kobe9-masterpiece.jpg"
+          },
+          {
+            "name": "HTM Black Mamba",
+            "type": "Collab",
+            "year": 2014,
+            "release_date": "2014",
+            "retail": 300,
+            "market_price": {
+              "low": 800,
+              "high": 2000
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#c8102e",
+              "accent": "#c8102e",
+              "laces": "#111111"
+            },
+            "story": "Hiroshi Fujiwara × Tinker Hatfield × Mark Parker 三人组联名。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-htm-kobe-9-black-mamba/"
+              }
+            ],
+            "img": "assets/img/kobe9-htm-black-mamba.jpg"
+          },
+          {
+            "name": "Beethoven (Low)",
+            "type": "OG",
+            "year": 2014,
+            "release_date": "2014",
+            "retail": 160,
+            "market_price": {
+              "low": 200,
+              "high": 400
+            },
+            "palette": {
+              "upper": "#ffffff",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "Kobe 9 Low 白黑经典，灵感来自贝多芬。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-9-low-beethoven/"
+              }
+            ],
+            "img": "assets/img/kobe9-beethoven.jpg"
+          },
+          {
+            "name": "Independence Day",
+            "type": "OG",
+            "year": 2014,
+            "release_date": "2014-07",
+            "retail": 200,
+            "market_price": {
+              "low": 280,
+              "high": 580
+            },
+            "palette": {
+              "upper": "#1d3a8a",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#ffffff"
+            },
+            "story": "美国独立日主题，红蓝白三色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-9-independence-day/"
+              }
+            ],
+            "img": "assets/img/kobe9-independence.jpg"
+          },
+          {
+            "name": "Birds of Prey",
+            "type": "OG",
+            "year": 2014,
+            "release_date": "2014-01",
+            "retail": 225,
+            "market_price": {
+              "low": 260,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#22c55e"
+            },
+            "story": "猛禽主题，黑黄绿配色。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-9-birds-of-prey/"
+              }
+            ],
+            "img": "assets/img/kobe9-birds-of-prey.jpg"
+          }
+        ],
+        "hero_colorway": "Masterpiece",
+        "hero_img": "assets/img/kobe9-hero.jpg",
+        "highlights": [
+          "2013 高帮 Flyknit",
+          "首款 Flyknit 篮球鞋",
+          "Masterpiece 文艺复兴",
+          "HTM 三巨头联名"
+        ]
+      },
+      {
+        "id": "kobe10",
+        "name": "Nike Kobe 10",
+        "subtitle": "鲨鱼皮鞋面 · 耐克篮球鞋 43 年来最强抓地力",
+        "year": 2014,
+        "designer": "Eric Avar",
+        "style_code": "705317",
+        "original_price": 180,
+        "market_price": {
+          "low": 180,
+          "high": 450
+        },
+        "icon_moment": "耐克官方声称「43 年来最强抓地力」的底盘设计",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#ffffff",
+          "accent": "#c8102e",
+          "laces": "#c8102e",
+          "modelLabel": "Nike Kobe 10",
+          "colorwayName": "Fade to Black"
+        },
+        "story": [
+          "Kobe 10 回归低帮，鞋面灵感来自鲨鱼皮——无缝粗孔编织网面不仅透气，还能提供自适应包裹。中底使用全掌 Lunar + 后掌 Cage Zoom，外底数百个颗粒让耐克官方宣称这是「NBA 43 年来最强抓地力」。",
+          "2014-15 赛季科比因伤缺阵大半年，Kobe 10 的发挥空间受限，但它在技术上仍被视为 Kobe 系列最均衡的一代。",
+          "Elite 版本回归 Flyknit + 飞线，向上延伸至小腿部分。Fade to Black（谢幕主题）配色预告了科比的退役。"
+        ],
+        "colorways": [
+          {
+            "name": "Fade to Black (Elite)",
+            "type": "OG",
+            "year": 2015,
+            "release_date": "2015-06",
+            "retail": 225,
+            "market_price": {
+              "low": 300,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#111111",
+              "accent": "#c8102e",
+              "laces": "#c8102e"
+            },
+            "story": "黑红渐变，致敬科比退役旅途的开端。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-10-elite-fade-to-black/"
+              }
+            ],
+            "img": "assets/img/kobe10-fade-to-black.jpg"
+          },
+          {
+            "name": "HTM",
+            "type": "Collab",
+            "year": 2015,
+            "release_date": "2015",
+            "retail": 300,
+            "market_price": {
+              "low": 500,
+              "high": 1200
+            },
+            "palette": {
+              "upper": "#f5f0e0",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#111111"
+            },
+            "story": "HTM 三人组 × Kobe 10 Elite 米白版本。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-htm-kobe-10-elite/"
+              }
+            ],
+            "img": "assets/img/kobe10-htm.jpg"
+          },
+          {
+            "name": "Vino",
+            "type": "OG",
+            "year": 2015,
+            "release_date": "2015-04",
+            "retail": 180,
+            "market_price": {
+              "low": 220,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#7c2d3f",
+              "sole": "#1a1a1a",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "酒红主题，致敬科比晚年「Vino 之夜」。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-10-vino/"
+              }
+            ],
+            "img": "assets/img/kobe10-vino.jpg"
+          },
+          {
+            "name": "Drew League",
+            "type": "OG",
+            "year": 2015,
+            "release_date": "2015-08",
+            "retail": 180,
+            "market_price": {
+              "low": 240,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#fde047",
+              "sole": "#ffffff",
+              "accent": "#1a1a1a",
+              "laces": "#1a1a1a"
+            },
+            "story": "致敬洛杉矶 Drew League 街球赛。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-10-drew-league/"
+              }
+            ],
+            "img": "assets/img/kobe10-drew.jpg"
+          }
+        ],
+        "hero_colorway": "Fade to Black (Elite)",
+        "hero_img": "assets/img/kobe10-hero.jpg",
+        "highlights": [
+          "2014 鲨鱼皮鞋面",
+          "43 年最强抓地力",
+          "Fade to Black 退役预告",
+          "全掌 Lunar"
+        ]
+      },
+      {
+        "id": "kobe11",
+        "name": "Nike Kobe 11",
+        "subtitle": "退役谢幕战靴 · Fade to Black 完整版",
+        "year": 2015,
+        "designer": "Eric Avar",
+        "style_code": "822675",
+        "original_price": 200,
+        "market_price": {
+          "low": 220,
+          "high": 600
+        },
+        "icon_moment": "2016 年 4 月 13 日退役战 60 分战靴",
+        "hero_palette": {
+          "upper": "#111111",
+          "sole": "#c8102e",
+          "accent": "#fbbf24",
+          "laces": "#fbbf24",
+          "modelLabel": "Nike Kobe 11",
+          "colorwayName": "Achilles Heel"
+        },
+        "story": [
+          "Kobe 11 是科比退役前的最后一双正代签名鞋。鞋面使用 Flyknit + 内置碳纤维板，Eric Avar 称这是「二十年篮球鞋工艺的浓缩」——既保留了 Kobe 8 的低帮灵活，又吸收了 Kobe 9 Elite 的 Flyknit 优势。",
+          "2016 年 4 月 13 日，科比穿着 Kobe 11 Fade to Black 在斯台普斯中心退役战上砍下 60 分，完成了「曼巴谢幕」。这双黑金红配色也成为篮球鞋文化史上最具情感重量的战靴之一。",
+          "2024 Kobe 11 Protro 系列重启，复刻包括 Achilles Heel、BHM、Red Horse 等经典配色。"
+        ],
+        "colorways": [
+          {
+            "name": "Achilles Heel",
+            "type": "OG",
+            "year": 2016,
+            "release_date": "2016-02",
+            "retail": 200,
+            "market_price": {
+              "low": 300,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#111111",
+              "sole": "#c8102e",
+              "accent": "#fbbf24",
+              "laces": "#fbbf24"
+            },
+            "story": "致敬阿基里斯断裂事件，鞋跟印有 Mamba 标识。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-achilles-heel/"
+              }
+            ],
+            "img": "assets/img/kobe11-achilles.jpg"
+          },
+          {
+            "name": "Red Horse",
+            "type": "OG",
+            "year": 2016,
+            "release_date": "2016-03",
+            "retail": 200,
+            "market_price": {
+              "low": 250,
+              "high": 550
+            },
+            "palette": {
+              "upper": "#c8102e",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#111111"
+            },
+            "story": "红白黑曼巴战马主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-red-horse/"
+              }
+            ],
+            "img": "assets/img/kobe11-red-horse.jpg"
+          },
+          {
+            "name": "BHM",
+            "type": "Retro",
+            "year": 2016,
+            "release_date": "2016-02",
+            "retail": 200,
+            "market_price": {
+              "low": 230,
+              "high": 500
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#ffffff",
+              "accent": "#fbbf24",
+              "laces": "#c8102e"
+            },
+            "story": "Black History Month 主题，致敬非裔美国人运动史。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-bhm/"
+              }
+            ],
+            "img": "assets/img/kobe11-bhm.jpg"
+          },
+          {
+            "name": "Mambacita (Protro)",
+            "type": "Retro",
+            "year": 2024,
+            "release_date": "2024",
+            "retail": 190,
+            "market_price": {
+              "low": 230,
+              "high": 450
+            },
+            "palette": {
+              "upper": "#ec4899",
+              "sole": "#ffffff",
+              "accent": "#111111",
+              "laces": "#ffffff"
+            },
+            "story": "致敬科比女儿 Gigi 的纪念版。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-mambacita/"
+              }
+            ],
+            "img": "assets/img/kobe11-mambacita.jpg"
+          },
+          {
+            "name": "Eulogy",
+            "type": "OG",
+            "year": 2016,
+            "release_date": "2016-04",
+            "retail": 220,
+            "market_price": {
+              "low": 350,
+              "high": 700
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#fde047",
+              "accent": "#fde047",
+              "laces": "#fde047"
+            },
+            "story": "致敬科比退役诗 Dear Basketball。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-eulogy/"
+              }
+            ],
+            "img": "assets/img/kobe11-eulogy.png"
+          },
+          {
+            "name": "Tinker Hatfield (4KB)",
+            "type": "Collab",
+            "year": 2016,
+            "release_date": "2016-08",
+            "retail": 220,
+            "market_price": {
+              "low": 320,
+              "high": 650
+            },
+            "palette": {
+              "upper": "#22c55e",
+              "sole": "#ffffff",
+              "accent": "#dc2626",
+              "laces": "#1a1a1a"
+            },
+            "story": "Tinker Hatfield × Kobe 11 联名版。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-tinker/"
+              }
+            ],
+            "img": "assets/img/kobe11-tinker.jpg"
+          },
+          {
+            "name": "FTB (Fade to Black Final)",
+            "type": "Retro",
+            "year": 2016,
+            "release_date": "2016-04",
+            "retail": 880,
+            "market_price": {
+              "low": 1500,
+              "high": 3500
+            },
+            "palette": {
+              "upper": "#1a1a1a",
+              "sole": "#1a1a1a",
+              "accent": "#1a1a1a",
+              "laces": "#1a1a1a"
+            },
+            "story": "5 鞋一套的退役豪华礼盒，Kobe 9-11 全黑主题。",
+            "sources": [
+              {
+                "label": "SneakerNews",
+                "url": "https://sneakernews.com/nike-kobe-11-ftb-set/"
+              }
+            ],
+            "img": "assets/img/kobe11-ftb-final.png"
+          }
+        ],
+        "hero_colorway": "Achilles Heel",
+        "hero_img": "assets/img/kobe11-hero.jpg",
+        "highlights": [
+          "2015 退役谢幕",
+          "60 分告别战",
+          "Achilles Heel 致敬伤病",
+          "FTB 880 美元礼盒"
+        ]
+      }
+    ],
+    "cover_img": "assets/img/kobe5-chaos.jpg"
+  }
+}
