@@ -16,3 +16,4 @@ __pycache__/
 
 # server pid
 *.pid
+AGENTS.md
